@@ -61,7 +61,7 @@ services:
       CYGNUS_POSTGRESQL_DATABASE: orion
       CYGNUS_POSTGRESQL_USER: postgres
       CYGNUS_POSTGRESQL_PASS: password
-      CYGNUS_POSTGRESQL_ENABLE: true
+      CYGNUS_POSTGRESQL_ENABLE_CACHE: true
       CYGNUS_POSTGRESQL_SERVICE: orion
       CYGNUS_POSTGRESQL_DATA_MODEL: dm-by-entity-type-database #dm-by-entity-type-database
       CYGNUS_POSTGRESQL_ATTR_PERSISTENCE: column
@@ -157,7 +157,7 @@ services:
       IOTA_NORTH_PORT: 4041
       IOTA_REGISTRY_TYPE: mongodb
       IOTA_LOG_LEVEL: DEBUG
-      IOTA_TIMESTAMP: true
+      # IOTA_TIMESTAMP: true
       IOTA_CB_NGSI_VERSION: v2
       IOTA_AUTOCAST: true
       IOTA_MONGO_HOST: mongo
@@ -187,7 +187,7 @@ services:
       IOTA_NORTH_PORT: 4061
       IOTA_REGISTRY_TYPE: mongodb
       IOTA_LOG_LEVEL:  DEBUG
-      IOTA_TIMESTAMP: true
+      # IOTA_TIMESTAMP: true
       IOTA_MONGO_HOST: mongo
       IOTA_MONGO_PORT: 27017
       IOTA_MONGO_DB: orion
