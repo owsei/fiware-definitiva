@@ -51,7 +51,7 @@ services:
       - "5055:5055"
       - "5080:5080" 
     environment:
-      CYGNUS_MULTIAGENT : true
+      # CYGNUS_MULTIAGENT : true
       CYGNUS_SERVICE_PORT: 5055
       CYGNUS_POSTGRESQL_SERVICE_PORT: 5055
       
@@ -144,34 +144,34 @@ services:
     networks:
       - fiware
 
-  iot-agent-json:
-    image: fiware/iotagent-json
-    hostname: iot-agent-json
-    container_name: iot-agent-json
-    restart: always
-    depends_on:
-      - mongo
-    environment:
-      - IOTA_CB_HOST = orion
-      - IOTA_CB_PORT = 1026
-      - IOTA_NORTH_PORT=4041
-      - IOTA_REGISTRY_TYPE=mongodb
-      - IOTA_LOG_LEVEL=DEBUG
-      - IOTA_TIMESTAMP=true
-      - IOTA_CB_NGSI_VERSION=v2
-      - IOTA_AUTOCAST=true
-      - IOTA_MONGO_HOST=mongo
-      - IOTA_MONGO_PORT=27017
-      - IOTA_MONGO_DB=orion
-      - IOTA_HTTP_PORT=7896
-      - IOTA_PROVIDER_URL=http://iot-agent-json:4041
-      - IOTA_AUTOCAST=true
-      - IOTA_DEFAULT_RESOURCE=/iot/json
-    ports:
-      - "4041:4041"
-      - "7896:7896"
-    networks:
-      - fiware
+  # iot-agent-json:
+  #   image: fiware/iotagent-json
+  #   hostname: iot-agent-json
+  #   container_name: iot-agent-json
+  #   restart: always
+  #   depends_on:
+  #     - mongo
+  #   environment:
+  #     - IOTA_CB_HOST = orion
+  #     - IOTA_CB_PORT = 1026
+  #     - IOTA_NORTH_PORT=4041
+  #     - IOTA_REGISTRY_TYPE=mongodb
+  #     - IOTA_LOG_LEVEL=DEBUG
+  #     - IOTA_TIMESTAMP=true
+  #     - IOTA_CB_NGSI_VERSION=v2
+  #     - IOTA_AUTOCAST=true
+  #     - IOTA_MONGO_HOST=mongo
+  #     - IOTA_MONGO_PORT=27017
+  #     - IOTA_MONGO_DB=orion
+  #     - IOTA_HTTP_PORT=7896
+  #     - IOTA_PROVIDER_URL=http://iot-agent-json:4041
+  #     - IOTA_AUTOCAST=true
+  #     - IOTA_DEFAULT_RESOURCE=/iot/json
+  #   ports:
+  #     - "4041:4041"
+  #     - "7896:7896"
+  #   networks:
+  #     - fiware
 
   iot-agent-ul:
     image: fiware/iotagent-ul
