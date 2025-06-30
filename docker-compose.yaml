@@ -183,18 +183,18 @@ services:
       - "4061:4061"
       - "7897:7897"
     environment:
-      - "IOTA_CB_HOST=orion"
-      - "IOTA_CB_PORT=1026"
-      - "IOTA_NORTH_PORT=4061"
-      - "IOTA_REGISTRY_TYPE=mongodb"
-      - "IOTA_LOG_LEVEL= DEBUG"
-      - "IOTA_TIMESTAMP=true"
-      - "IOTA_MONGO_HOST=mongo"
-      - "IOTA_MONGO_PORT=27017"
-      - "IOTA_MONGO_DB=orion"
-      - "IOTA_HTTP_PORT=7897"
-      - "IOTA_PROVIDER_URL=http://iot-agent:4061"
-      - "IOTA_AUTOCAST=true"
+      - IOTA_CB_HOST=orion
+      - IOTA_CB_PORT=1026
+      - IOTA_NORTH_PORT=4061
+      - IOTA_REGISTRY_TYPE=mongodb
+      - IOTA_LOG_LEVEL= DEBUG
+      - IOTA_TIMESTAMP=true
+      - IOTA_MONGO_HOST=mongo
+      - IOTA_MONGO_PORT=27017
+      - IOTA_MONGO_DB=orion
+      - IOTA_HTTP_PORT=7897
+      - IOTA_PROVIDER_URL=http://iot-agent:4061
+      - IOTA_AUTOCAST=true
     networks:
       - fiware
   
@@ -223,59 +223,59 @@ services:
  
 
   # PERSEO
-  perseo-core:
-    image: fiware/perseo-core
-    hostname: perseo-core
-    container_name: perseo-core
-    environment:
-        - PERSEO_FE_URL=http://perseo-fe:9090
-        - MAX_AGE=6000
-        # - PERSEO_MONGO_ENDPOINT= localhost:27018
-    depends_on:
-        - mongo
-    ports:
-        - 8080:8080
-    deploy:
-        replicas: 1
-        restart_policy:
-            condition: on-failure
-    networks:
-        - fiware
+  # perseo-core:
+  #   image: fiware/perseo-core
+  #   hostname: perseo-core
+  #   container_name: perseo-core
+  #   environment:
+  #       - PERSEO_FE_URL=http://perseo-fe:9090
+  #       - MAX_AGE=6000
+  #       # - PERSEO_MONGO_ENDPOINT= localhost:27018
+  #   depends_on:
+  #       - mongo
+  #   ports:
+  #       - 8080:8080
+  #   deploy:
+  #       replicas: 1
+  #       restart_policy:
+  #           condition: on-failure
+  #   networks:
+  #       - fiware
     
-  perseo-fe:
-    image: fiware/perseo
-    hostname: perseo-fe
-    container_name: perseo-fe
-    ports:
-        - 9090:9090
-    depends_on:
-        - perseo-core
-    environment:
-        PERSEO_MONGO_ENDPOINT: perseo-mongo[:27018]
-        PERSEO_CORE_URL: http://perseo-core:8080
-        PERSEO_LOG_LEVEL: debug
-        PERSEO_ORION_URL: http://orion:1026/
-        # - PERSEO_SMTP_HOST=www.hostname.com
-        # - PERSEO_SMTP_PORT=25
-        # - PERSEO_SMTP_SECURE=false
-    deploy:
-        replicas: 1
-        restart_policy:
-            condition: on-failure
-    networks:
-        - fiware
+  # perseo-fe:
+  #   image: fiware/perseo
+  #   hostname: perseo-fe
+  #   container_name: perseo-fe
+  #   ports:
+  #       - 9090:9090
+  #   depends_on:
+  #       - perseo-core
+  #   environment:
+  #       PERSEO_MONGO_ENDPOINT: perseo-mongo[:27018]
+  #       PERSEO_CORE_URL: http://perseo-core:8080
+  #       PERSEO_LOG_LEVEL: debug
+  #       PERSEO_ORION_URL: http://orion:1026/
+  #       # - PERSEO_SMTP_HOST=www.hostname.com
+  #       # - PERSEO_SMTP_PORT=25
+  #       # - PERSEO_SMTP_SECURE=false
+  #   deploy:
+  #       replicas: 1
+  #       restart_policy:
+  #           condition: on-failure
+  #   networks:
+  #       - fiware
 
-  perseo-mongo:
-    image: mongo:4.4
-    container_name: perseo-mongo
-    hostname: perseo-mongo
-    ports:
-      - "27018:27017"
-    command: --nojournal
-    volumes:
-      - perseo_mongo_data:/data/db
-    networks:
-      - fiware
+  # perseo-mongo:
+  #   image: mongo:4.4
+  #   container_name: perseo-mongo
+  #   hostname: perseo-mongo
+  #   ports:
+  #     - "27018:27017"
+  #   command: --nojournal
+  #   volumes:
+  #     - perseo_mongo_data:/data/db
+  #   networks:
+  #     - fiware
   # FIN PERSEO
 
   # fastapi:
