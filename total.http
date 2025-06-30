@@ -1,0 +1,115 @@
+
+
+GET http://localhost:1026/version
+
+###
+
+
+GET http://localhost:1026/v2/subscriptions/ HTTP/1.1
+fiware-service: pamplona
+fiware-servicepath: /iots
+
+###
+curl -iX POST 'http://localhost:4061/iot/services' \
+  -H 'Content-Type: application/json' \
+  -H 'fiware-service: pamplona' \
+  -H 'fiware-servicepath: /iots' \
+  -d '{
+ "services": [
+   {
+     "apikey":      "4jggokgpepnvsb2uv4s40d59ov",
+     "cbroker":     "http://orion:1026",
+     "entity_type": "Device",
+     "resource":    "/iot/d"
+   }
+ ]
+}'
+
+###
+
+
+curl -L -X POST 'http://localhost:4061/iot/devices' \
+    -H 'fiware-service: pamplona' \
+    -H 'fiware-servicepath: /iots' \
+    -H 'Content-Type: application/json' \
+--data-raw '{
+  "devices": [
+    {
+      "device_id": "temperature001",
+      "entity_name": "temperature001",
+      "entity_type": "Device",
+      "apikey": "4jggokgpepnvsb2uv4s40d59ov",
+      "timezone": "Europe/Berlin",
+      "attributes": [
+        {
+          "object_id": "t",
+          "name": "temperature",
+          "type": "Number"
+        }
+      ]
+    }
+  ]
+}'
+
+
+###
+curl -L -X POST 'http://localhost:7897/iot/d?k=4jggokgpepnvsb2uv4s40d59ov&i=temperature001' \
+  -H 'Content-Type: text/plain' \
+  --data-raw 't|24'
+
+
+###
+
+
+curl -X POST 'http://localhost:1026/v2/subscriptions'
+  -H 'Content-Type: application/json' 
+  -H "Fiware-Service: pamplona" 
+  -H "Fiware-ServicePath: /iots" \
+-d '{
+  "description": "Notify Cygnus/Draco of changes in IoT Agent",
+  "subject": {
+    "entities": [
+      {
+        "idPattern": ".*"
+      }
+    ]
+  },
+  "notification": {
+    "http": {
+      "url": "http://localhost:5055/notify"
+    }
+  },
+  "throttling": 0
+}'
+
+#####
+
+
+
+curl -X POST "http://localhost:9090/rules" \
+  -H 'Content-Type: application/json' \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots" \
+  -d '{
+    "name": "HighTempAlert-alerts-fastapi-post2",
+    "text": "select * from pattern [every ev=iotEvent(cast(cast(temperature?, Double), Double) > 30)]",
+    "action": {
+        "type": "post",
+        "parameters": {
+            "url": "http://fastapi:8000/alerts",
+            "method": "POST",
+            "headers": {
+                "Content-type": "application/json"
+            },
+
+            "qs": {
+                "${id}": "${temperature}"
+            },
+            "json": {
+              "id": "Prueba",
+              "temperature": 30,
+              "ruleName": "type-Room-alerts-superior-25-todas"
+            }
+        }
+    }
+  }'

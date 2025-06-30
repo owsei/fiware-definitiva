@@ -1,0 +1,1206 @@
+2025-04-29 08:00:05,473 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:00:05,491 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:00:08,789 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:00:25,493 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:00:25,496 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:00:45,499 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:00:45,502 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:00:47,274 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 478 milliseconds (Stop-the-world time = 215 milliseconds, Clear Edit Logs time = 228 millis), max Transaction ID 70
+2025-04-29 08:01:05,503 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:01:05,507 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:01:10,135 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:01:25,509 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:01:25,511 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:01:45,513 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:01:45,515 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:02:05,517 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:02:05,518 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:02:11,085 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:02:25,519 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:02:25,521 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:02:45,523 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:02:45,524 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:02:47,743 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 469 milliseconds (Stop-the-world time = 151 milliseconds, Clear Edit Logs time = 285 millis), max Transaction ID 70
+2025-04-29 08:03:05,525 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:03:05,527 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:03:12,330 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:03:25,530 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:03:25,532 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:03:45,535 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:03:45,536 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:04:05,537 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:04:05,539 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:04:13,667 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:04:25,540 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:04:25,542 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:04:45,544 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:04:45,546 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:04:48,300 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 556 milliseconds (Stop-the-world time = 176 milliseconds, Clear Edit Logs time = 326 millis), max Transaction ID 70
+2025-04-29 08:05:05,547 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:05:05,549 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:05:14,720 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:05:25,550 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:05:25,552 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:05:45,554 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:05:45,557 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:06:05,559 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:06:05,562 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:06:15,807 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:06:25,563 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:06:25,575 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:06:45,581 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:06:45,584 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:06:48,811 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 507 milliseconds (Stop-the-world time = 193 milliseconds, Clear Edit Logs time = 285 millis), max Transaction ID 70
+2025-04-29 08:07:05,586 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:07:05,588 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:07:16,694 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:07:25,589 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:07:25,592 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:07:45,593 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:07:45,594 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:08:05,596 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:08:05,597 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:08:17,609 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:08:25,598 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:08:25,600 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:08:45,601 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:08:45,603 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:08:49,142 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 332 milliseconds (Stop-the-world time = 102 milliseconds, Clear Edit Logs time = 204 millis), max Transaction ID 70
+2025-04-29 08:09:05,605 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:09:05,608 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:09:18,977 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:09:25,611 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:09:25,614 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:09:45,616 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:09:45,618 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:10:05,619 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:10:05,620 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:10:20,020 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:10:25,621 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:10:25,623 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:10:45,625 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:10:45,627 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:10:49,612 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 468 milliseconds (Stop-the-world time = 166 milliseconds, Clear Edit Logs time = 276 millis), max Transaction ID 70
+2025-04-29 08:11:05,629 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:11:05,631 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:11:21,026 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:11:25,633 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:11:25,635 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:11:45,636 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:11:45,638 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:12:05,639 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:12:05,642 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:12:21,843 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:12:25,645 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:12:25,648 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:12:45,650 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:12:45,653 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:12:50,089 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 477 milliseconds (Stop-the-world time = 151 milliseconds, Clear Edit Logs time = 300 millis), max Transaction ID 72
+2025-04-29 08:13:05,654 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:13:05,655 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:13:23,184 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:13:25,655 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:13:25,659 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:13:45,660 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:13:45,661 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:14:05,662 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:14:05,667 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:14:24,436 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:14:25,668 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:14:25,693 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:14:45,694 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:14:45,697 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:14:50,480 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 392 milliseconds (Stop-the-world time = 139 milliseconds, Clear Edit Logs time = 226 millis), max Transaction ID 72
+2025-04-29 08:15:05,700 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:15:05,702 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:15:25,375 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:15:25,702 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:15:25,710 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:15:45,706 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:15:45,708 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:16:05,709 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:16:05,711 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:16:25,717 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:16:25,718 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:16:27,430 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:16:45,719 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:16:45,721 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:16:51,149 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 668 milliseconds (Stop-the-world time = 230 milliseconds, Clear Edit Logs time = 384 millis), max Transaction ID 72
+2025-04-29 08:17:05,723 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:17:05,726 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:17:25,729 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:17:25,730 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:17:28,211 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:17:45,731 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:17:45,732 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:18:05,733 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:18:05,736 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:18:25,737 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:18:25,740 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:18:26,724 INFO [ListenHTTP (1d16ccb7-3405-3292-b122-d2a8bb39e0f6) Web Server-119] o.a.n.p.store.WriteAheadStorePartition Successfully rolled over Event Writer for Provenance Event Store Partition[directory=./provenance_repository] due to MAX_TIME_REACHED. Event File was 17.71 KB and contained 6 events.
+2025-04-29 08:18:26,799 INFO [Timer-Driven Process Thread-5] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=6756f6f6-0577-47de-9315-8dd0e3e159ea,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=3487, length=116],offset=0,name=6756f6f6-0577-47de-9315-8dd0e3e159ea,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:18:26 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:18:26 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '8682c16a-24d2-11f0-9ebe-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:18:26.690Z'
+Key: 'filename'
+	Value: '6756f6f6-0577-47de-9315-8dd0e3e159ea'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '23.11'
+Key: 'uuid'
+	Value: '6756f6f6-0577-47de-9315-8dd0e3e159ea'
+--------------------------------------------------
+2025-04-29 08:18:29,287 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:18:45,741 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:18:45,796 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 53 milliseconds (Stop-the-world time = 29 milliseconds), max Transaction ID 256
+2025-04-29 08:18:45,798 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 55 milliseconds
+2025-04-29 08:18:51,637 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 486 milliseconds (Stop-the-world time = 148 milliseconds, Clear Edit Logs time = 302 millis), max Transaction ID 72
+2025-04-29 08:19:05,800 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:19:05,803 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:19:25,806 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:19:25,808 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:19:30,454 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:19:43,280 INFO [Timer-Driven Process Thread-1] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=408f0f72-61c0-46af-9f43-bdbcdb76a727,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=4088, length=116],offset=0,name=408f0f72-61c0-46af-9f43-bdbcdb76a727,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:19:43 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:19:43 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: 'b41d10b2-24d2-11f0-994e-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:19:43.199Z'
+Key: 'filename'
+	Value: '408f0f72-61c0-46af-9f43-bdbcdb76a727'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '33.11'
+Key: 'uuid'
+	Value: '408f0f72-61c0-46af-9f43-bdbcdb76a727'
+--------------------------------------------------
+2025-04-29 08:19:45,812 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:19:45,840 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 27 milliseconds (Stop-the-world time = 15 milliseconds), max Transaction ID 262
+2025-04-29 08:19:45,841 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 27 milliseconds
+2025-04-29 08:20:05,841 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:20:05,843 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:20:25,843 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:20:25,845 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:20:31,448 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:20:45,846 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:20:45,847 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:20:52,180 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 541 milliseconds (Stop-the-world time = 285 milliseconds, Clear Edit Logs time = 214 millis), max Transaction ID 72
+2025-04-29 08:21:05,848 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:21:05,851 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:21:25,853 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:21:25,855 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:21:32,398 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:21:39,863 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=78a3a63f-00a8-4b9c-9817-882af3111562,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=4689, length=116],offset=0,name=78a3a63f-00a8-4b9c-9817-882af3111562,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:21:39 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:21:39 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: 'f999cf72-24d2-11f0-b918-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:21:39.779Z'
+Key: 'filename'
+	Value: '78a3a63f-00a8-4b9c-9817-882af3111562'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '33.11'
+Key: 'uuid'
+	Value: '78a3a63f-00a8-4b9c-9817-882af3111562'
+--------------------------------------------------
+2025-04-29 08:21:45,857 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:21:45,892 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 34 milliseconds (Stop-the-world time = 18 milliseconds), max Transaction ID 268
+2025-04-29 08:21:45,893 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 34 milliseconds
+2025-04-29 08:22:05,894 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:22:05,895 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:22:25,896 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:22:25,898 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:22:33,634 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:22:35,553 INFO [Timer-Driven Process Thread-7] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=4689e866-e687-4ad7-a3db-32fa9a8e254b,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=5290, length=116],offset=0,name=4689e866-e687-4ad7-a3db-32fa9a8e254b,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:22:35 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:22:35 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '1acc4ad0-24d3-11f0-a7e7-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:22:35.474Z'
+Key: 'filename'
+	Value: '4689e866-e687-4ad7-a3db-32fa9a8e254b'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '33.11'
+Key: 'uuid'
+	Value: '4689e866-e687-4ad7-a3db-32fa9a8e254b'
+--------------------------------------------------
+2025-04-29 08:22:45,900 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:22:45,937 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 35 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 274
+2025-04-29 08:22:45,938 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 36 milliseconds
+2025-04-29 08:22:52,707 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 525 milliseconds (Stop-the-world time = 225 milliseconds, Clear Edit Logs time = 268 millis), max Transaction ID 72
+2025-04-29 08:22:55,448 INFO [Timer-Driven Process Thread-9] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=3afbc52c-7144-432a-9b09-0f230dbeb40a,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=5891, length=116],offset=0,name=3afbc52c-7144-432a-9b09-0f230dbeb40a,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:22:55 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:22:55 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '26a90c9e-24d3-11f0-b23e-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:22:55.376Z'
+Key: 'filename'
+	Value: '3afbc52c-7144-432a-9b09-0f230dbeb40a'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '32.11'
+Key: 'uuid'
+	Value: '3afbc52c-7144-432a-9b09-0f230dbeb40a'
+--------------------------------------------------
+2025-04-29 08:23:05,939 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:23:05,995 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 53 milliseconds (Stop-the-world time = 27 milliseconds), max Transaction ID 280
+2025-04-29 08:23:05,996 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 54 milliseconds
+2025-04-29 08:23:25,996 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:23:25,998 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:23:34,223 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:23:46,000 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:23:46,001 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:24:06,003 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:24:06,006 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:24:16,839 INFO [Timer-Driven Process Thread-1] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=e4412301-91fe-43af-abb9-dad9ebc765d7,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=6492, length=116],offset=0,name=e4412301-91fe-43af-abb9-dad9ebc765d7,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:24:16 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:24:16 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '572d23a0-24d3-11f0-beb1-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:24:16.772Z'
+Key: 'filename'
+	Value: 'e4412301-91fe-43af-abb9-dad9ebc765d7'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '35.11'
+Key: 'uuid'
+	Value: 'e4412301-91fe-43af-abb9-dad9ebc765d7'
+--------------------------------------------------
+2025-04-29 08:24:26,007 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:24:26,032 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 24 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 286
+2025-04-29 08:24:26,032 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 24 milliseconds
+2025-04-29 08:24:35,412 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:24:44,631 INFO [Timer-Driven Process Thread-10] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=60905fab-4042-4d7f-b424-99e23fb51388,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=7093, length=116],offset=0,name=60905fab-4042-4d7f-b424-99e23fb51388,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:24:44 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:24:44 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '67bb166e-24d3-11f0-820f-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:24:44.546Z'
+Key: 'filename'
+	Value: '60905fab-4042-4d7f-b424-99e23fb51388'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '35.11'
+Key: 'uuid'
+	Value: '60905fab-4042-4d7f-b424-99e23fb51388'
+--------------------------------------------------
+2025-04-29 08:24:46,032 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:24:46,063 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 27 milliseconds (Stop-the-world time = 14 milliseconds), max Transaction ID 292
+2025-04-29 08:24:46,064 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 28 milliseconds
+2025-04-29 08:24:53,238 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 531 milliseconds (Stop-the-world time = 190 milliseconds, Clear Edit Logs time = 294 millis), max Transaction ID 72
+2025-04-29 08:25:06,064 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:25:06,066 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:25:26,069 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:25:26,071 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:25:36,212 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:25:46,073 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:25:46,076 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:26:06,078 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:26:06,080 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:26:26,083 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:26:26,084 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:26:37,025 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:26:46,086 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:26:46,087 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:26:53,685 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 446 milliseconds (Stop-the-world time = 187 milliseconds, Clear Edit Logs time = 235 millis), max Transaction ID 72
+2025-04-29 08:27:06,087 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:27:06,089 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:27:26,089 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:27:26,091 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:27:37,658 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:27:46,092 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:27:46,094 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:28:06,096 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:28:06,099 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:28:26,099 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:28:26,168 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:28:39,057 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:28:46,169 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:28:46,171 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:28:54,127 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 442 milliseconds (Stop-the-world time = 198 milliseconds, Clear Edit Logs time = 222 millis), max Transaction ID 72
+2025-04-29 08:29:06,173 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:29:06,175 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:29:26,176 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:29:26,178 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:29:40,020 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:29:46,179 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:29:46,182 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:30:06,184 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:30:06,186 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:30:26,188 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:30:26,214 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:30:41,075 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:30:46,320 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:30:46,321 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:30:54,696 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 569 milliseconds (Stop-the-world time = 267 milliseconds, Clear Edit Logs time = 253 millis), max Transaction ID 72
+2025-04-29 08:31:06,325 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:31:06,327 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:31:26,328 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:31:26,335 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:31:42,216 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:31:46,339 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:31:46,342 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:32:06,345 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:32:06,347 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:32:26,348 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:32:26,350 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:32:43,124 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:32:46,351 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:32:46,352 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:32:55,167 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 470 milliseconds (Stop-the-world time = 235 milliseconds, Clear Edit Logs time = 209 millis), max Transaction ID 72
+2025-04-29 08:33:06,353 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:33:06,354 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:33:09,189 INFO [ListenHTTP (1d16ccb7-3405-3292-b122-d2a8bb39e0f6) Web Server-126] o.a.n.p.store.WriteAheadStorePartition Successfully rolled over Event Writer for Provenance Event Store Partition[directory=./provenance_repository] due to MAX_TIME_REACHED. Event File was 50.32 KB and contained 42 events.
+2025-04-29 08:33:09,261 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=ec9566dd-4661-42bf-a52b-d2c925c83b83,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=7694, length=116],offset=0,name=ec9566dd-4661-42bf-a52b-d2c925c83b83,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:33:09 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:33:09 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '9480d1a6-24d4-11f0-b2eb-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:33:09.158Z'
+Key: 'filename'
+	Value: 'ec9566dd-4661-42bf-a52b-d2c925c83b83'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '35.11'
+Key: 'uuid'
+	Value: 'ec9566dd-4661-42bf-a52b-d2c925c83b83'
+--------------------------------------------------
+2025-04-29 08:33:26,355 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:33:26,383 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 27 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 298
+2025-04-29 08:33:26,383 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 27 milliseconds
+2025-04-29 08:33:43,788 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:33:46,383 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:33:46,385 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:34:06,386 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:34:06,387 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:34:26,389 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:34:26,392 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:34:44,849 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:34:46,393 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:34:46,394 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:34:55,627 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 458 milliseconds (Stop-the-world time = 205 milliseconds, Clear Edit Logs time = 225 millis), max Transaction ID 72
+2025-04-29 08:35:06,396 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:35:06,397 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:35:26,398 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:35:26,401 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:35:28,964 INFO [Timer-Driven Process Thread-4] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=3eef3da0-9628-4619-a54d-d6a7f3a612d0,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=8295, length=116],offset=0,name=3eef3da0-9628-4619-a54d-d6a7f3a612d0,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:35:28 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:35:28 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: 'e7ca7c2c-24d4-11f0-b3f2-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:35:28.892Z'
+Key: 'filename'
+	Value: '3eef3da0-9628-4619-a54d-d6a7f3a612d0'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '19.11'
+Key: 'uuid'
+	Value: '3eef3da0-9628-4619-a54d-d6a7f3a612d0'
+--------------------------------------------------
+2025-04-29 08:35:46,174 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:35:46,402 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:35:46,428 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 24 milliseconds (Stop-the-world time = 14 milliseconds), max Transaction ID 304
+2025-04-29 08:35:46,429 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 26 milliseconds
+2025-04-29 08:36:06,430 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:36:06,431 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:36:07,270 INFO [Timer-Driven Process Thread-7] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=be62569b-4ead-458a-9eaa-2608998fe5e8,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=8896, length=116],offset=0,name=be62569b-4ead-458a-9eaa-2608998fe5e8,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:36:07 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:36:07 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: 'fea23084-24d4-11f0-8f1a-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:36:07.216Z'
+Key: 'filename'
+	Value: 'be62569b-4ead-458a-9eaa-2608998fe5e8'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '17.11'
+Key: 'uuid'
+	Value: 'be62569b-4ead-458a-9eaa-2608998fe5e8'
+--------------------------------------------------
+2025-04-29 08:36:21,886 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=c2a689eb-2220-4e3c-b090-e500a31c300d,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=9497, length=116],offset=0,name=c2a689eb-2220-4e3c-b090-e500a31c300d,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:36:21 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:36:21 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '07554ee6-24d5-11f0-adfb-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:36:21.812Z'
+Key: 'filename'
+	Value: 'c2a689eb-2220-4e3c-b090-e500a31c300d'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '26.11'
+Key: 'uuid'
+	Value: 'c2a689eb-2220-4e3c-b090-e500a31c300d'
+--------------------------------------------------
+2025-04-29 08:36:26,432 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:36:26,486 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 52 milliseconds (Stop-the-world time = 26 milliseconds), max Transaction ID 316
+2025-04-29 08:36:26,487 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 53 milliseconds
+2025-04-29 08:36:46,488 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:36:46,488 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:36:47,130 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:36:56,090 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 462 milliseconds (Stop-the-world time = 228 milliseconds, Clear Edit Logs time = 213 millis), max Transaction ID 72
+2025-04-29 08:37:06,489 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:37:06,491 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:37:26,492 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:37:26,521 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:37:45,346 INFO [Timer-Driven Process Thread-10] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=f105007f-5f9d-4172-b42a-7e6519a8a47b,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=10098, length=116],offset=0,name=f105007f-5f9d-4172-b42a-7e6519a8a47b,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:37:45 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:37:45 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '39132174-24d5-11f0-8aee-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:37:45.265Z'
+Key: 'filename'
+	Value: 'f105007f-5f9d-4172-b42a-7e6519a8a47b'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '26.11'
+Key: 'uuid'
+	Value: 'f105007f-5f9d-4172-b42a-7e6519a8a47b'
+--------------------------------------------------
+2025-04-29 08:37:46,521 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:37:46,550 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 27 milliseconds (Stop-the-world time = 13 milliseconds), max Transaction ID 322
+2025-04-29 08:37:46,551 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 28 milliseconds
+2025-04-29 08:37:48,296 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:38:06,551 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:38:06,554 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:38:26,556 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:38:26,602 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:38:46,603 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:38:46,606 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:38:49,370 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:38:56,689 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 598 milliseconds (Stop-the-world time = 196 milliseconds, Clear Edit Logs time = 364 millis), max Transaction ID 72
+2025-04-29 08:39:06,609 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:39:06,611 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:39:26,613 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:39:26,645 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:39:31,461 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=0fa662ab-9d98-40ca-95bc-147a64c16276,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=10699, length=116],offset=0,name=0fa662ab-9d98-40ca-95bc-147a64c16276,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:39:31 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:39:31 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '785157a2-24d5-11f0-94f2-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:39:31.368Z'
+Key: 'filename'
+	Value: '0fa662ab-9d98-40ca-95bc-147a64c16276'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '26.11'
+Key: 'uuid'
+	Value: '0fa662ab-9d98-40ca-95bc-147a64c16276'
+--------------------------------------------------
+2025-04-29 08:39:46,646 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:39:46,725 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 75 milliseconds (Stop-the-world time = 39 milliseconds), max Transaction ID 328
+2025-04-29 08:39:46,726 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 77 milliseconds
+2025-04-29 08:39:50,434 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:39:56,446 INFO [Timer-Driven Process Thread-7] o.a.n.processors.standard.LogAttribute LogAttribute[id=5d821cc3-0196-1000-1058-e2d5f96d5fd0] logging for flow file StandardFlowFileRecord[uuid=b56fc5a8-cf96-4add-bba5-860e66f2b6bb,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1745909663274-1, container=default, section=1], offset=11300, length=116],offset=0,name=b56fc5a8-cf96-4add-bba5-860e66f2b6bb,size=116]
+--------------------------------------------------
+Standard FlowFile Attributes
+Key: 'entryDate'
+	Value: 'Tue Apr 29 08:39:56 UTC 2025'
+Key: 'lineageStartDate'
+	Value: 'Tue Apr 29 08:39:56 UTC 2025'
+Key: 'fileSize'
+	Value: '116'
+FlowFile Attribute Map Content
+Key: 'Accept'
+	Value: 'application/json'
+Key: 'Content-Length'
+	Value: '408'
+Key: 'Content-Type'
+	Value: 'application/json; charset=UTF-8'
+Key: 'Fiware-Correlator'
+	Value: '87387dcc-24d5-11f0-9fa8-0242ac17000b; cbnotif=1'
+Key: 'Fiware-Service'
+	Value: 'pamplona'
+Key: 'Fiware-Servicepath'
+	Value: '/iots'
+Key: 'Host'
+	Value: 'draco:5050'
+Key: 'Ngsiv2-AttrsFormat'
+	Value: 'normalized'
+Key: 'User-Agent'
+	Value: 'orion/4.1.0 libcurl/7.88.1'
+Key: 'fecha'
+	Value: '2025-04-29T08:39:56.372Z'
+Key: 'filename'
+	Value: 'b56fc5a8-cf96-4add-bba5-860e66f2b6bb'
+Key: 'h'
+	Value: '60'
+Key: 'id'
+	Value: 'device:sensor001'
+Key: 'mime.type'
+	Value: 'application/json'
+Key: 'path'
+	Value: './'
+Key: 'restlistener.remote.issuer.dn'
+	Value: 'none'
+Key: 'restlistener.remote.source.host'
+	Value: '172.23.0.11'
+Key: 'restlistener.remote.user.dn'
+	Value: 'none'
+Key: 'restlistener.request.uri'
+	Value: '/notify'
+Key: 't'
+	Value: '14.15'
+Key: 'uuid'
+	Value: 'b56fc5a8-cf96-4add-bba5-860e66f2b6bb'
+--------------------------------------------------
+2025-04-29 08:40:06,728 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:40:06,775 INFO [pool-9-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 45 milliseconds (Stop-the-world time = 17 milliseconds), max Transaction ID 334
+2025-04-29 08:40:06,776 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 47 milliseconds
+2025-04-29 08:40:26,778 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:40:26,780 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:40:46,781 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:40:46,783 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:40:50,851 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:40:57,275 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 584 milliseconds (Stop-the-world time = 278 milliseconds, Clear Edit Logs time = 258 millis), max Transaction ID 72
+2025-04-29 08:41:06,785 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:41:06,788 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:41:26,791 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:41:26,794 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:41:46,795 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:41:46,797 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:41:51,691 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:42:06,814 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:42:06,816 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:42:26,817 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:42:26,819 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:42:46,821 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:42:46,823 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:42:52,802 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:42:57,833 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 557 milliseconds (Stop-the-world time = 287 milliseconds, Clear Edit Logs time = 222 millis), max Transaction ID 72
+2025-04-29 08:43:06,824 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:43:06,826 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:43:26,828 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:43:26,831 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:43:46,833 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:43:46,835 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:43:53,743 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:44:06,836 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:44:06,839 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:44:26,843 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:44:26,845 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:44:46,847 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:44:46,849 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:44:55,332 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:44:58,422 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 587 milliseconds (Stop-the-world time = 236 milliseconds, Clear Edit Logs time = 309 millis), max Transaction ID 72
+2025-04-29 08:45:06,851 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:45:06,853 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:45:26,855 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:45:26,871 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:45:46,873 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:45:46,876 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:45:56,179 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:46:06,879 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:46:06,880 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:46:26,882 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:46:26,885 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:46:46,886 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:46:46,887 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:46:56,555 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:46:58,955 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 530 milliseconds (Stop-the-world time = 232 milliseconds, Clear Edit Logs time = 244 millis), max Transaction ID 72
+2025-04-29 08:47:06,890 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:47:06,893 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:47:26,896 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:47:26,905 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:47:46,907 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:47:46,910 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:47:58,174 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:48:06,912 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:48:06,914 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:48:26,915 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:48:26,917 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:48:46,918 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:48:46,920 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:48:59,286 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 328 milliseconds (Stop-the-world time = 127 milliseconds, Clear Edit Logs time = 177 millis), max Transaction ID 72
+2025-04-29 08:48:59,318 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:49:06,921 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:49:06,923 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:49:26,924 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:49:26,933 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:49:46,933 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:49:46,936 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:50:00,387 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:50:06,939 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:50:06,941 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:50:26,943 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:50:26,945 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:50:46,947 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:50:46,970 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:50:59,810 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 523 milliseconds (Stop-the-world time = 232 milliseconds, Clear Edit Logs time = 268 millis), max Transaction ID 72
+2025-04-29 08:51:01,776 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:51:06,972 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:51:06,974 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:51:26,975 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:51:26,984 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:51:46,987 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:51:46,990 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:52:02,975 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:52:06,993 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:52:07,027 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:52:27,029 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:52:27,031 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:52:47,033 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:52:47,036 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:53:00,496 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 685 milliseconds (Stop-the-world time = 292 milliseconds, Clear Edit Logs time = 352 millis), max Transaction ID 72
+2025-04-29 08:53:04,438 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:53:07,037 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:53:07,039 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:53:27,041 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:53:27,044 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:53:47,044 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:53:47,047 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:54:04,788 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:54:07,047 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:54:07,050 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:54:27,053 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:54:27,056 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:54:47,065 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:54:47,067 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:55:01,222 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 719 milliseconds (Stop-the-world time = 369 milliseconds, Clear Edit Logs time = 299 millis), max Transaction ID 72
+2025-04-29 08:55:07,063 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:55:07,064 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:55:08,577 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:55:27,065 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:55:27,069 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:55:47,070 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:55:47,071 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:56:07,109 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:56:07,110 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:56:09,672 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:56:27,112 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:56:27,115 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:56:47,130 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:56:47,145 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:57:02,477 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 1213 milliseconds (Stop-the-world time = 484 milliseconds, Clear Edit Logs time = 642 millis), max Transaction ID 72
+2025-04-29 08:57:07,145 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:57:07,165 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:57:10,296 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:57:27,167 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:57:27,172 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:57:47,173 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:57:47,174 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:58:07,174 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:58:07,176 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:58:11,060 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:58:27,176 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:58:27,178 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:58:47,179 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:58:47,180 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:59:03,817 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@4148a617 checkpointed with 4 Records and 0 Swap Files in 1339 milliseconds (Stop-the-world time = 450 milliseconds, Clear Edit Logs time = 737 millis), max Transaction ID 72
+2025-04-29 08:59:07,182 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:59:07,184 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:59:12,506 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2025-04-29 08:59:27,186 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:59:27,190 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2025-04-29 08:59:47,192 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-04-29 08:59:47,200 INFO [pool-9-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds

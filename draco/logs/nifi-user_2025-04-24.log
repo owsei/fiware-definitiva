@@ -1,0 +1,23 @@
+2025-04-24 06:54:45,640 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Thu Apr 24 06:54:45 UTC 2025
+2025-04-24 06:54:45,943 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Thu Apr 24 06:54:45 UTC 2025
+2025-04-24 06:54:45,956 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-04-24 06:54:45,971 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
+2025-04-24 06:59:51,876 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Thu Apr 24 06:59:51 UTC 2025
+2025-04-24 06:59:52,017 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Thu Apr 24 06:59:52 UTC 2025
+2025-04-24 06:59:52,030 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-04-24 06:59:52,042 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
+2025-04-24 07:47:07,732 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Thu Apr 24 07:47:07 UTC 2025
+2025-04-24 07:47:08,005 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Thu Apr 24 07:47:08 UTC 2025
+2025-04-24 07:47:08,015 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-04-24 07:47:08,028 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
+2025-04-24 07:53:51,700 INFO [NiFi Web Server-113] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.25.0.1 [<anonymous>] GET https://localhost:8443/nifi-api/flow/current-user
+2025-04-24 07:53:51,704 WARN [NiFi Web Server-113] o.a.n.w.s.NiFiAuthenticationFilter Authentication Failed 172.25.0.1 GET https://localhost:8443/nifi-api/flow/current-user [Anonymous authentication has not been configured.]
+2025-04-24 08:59:11,884 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Thu Apr 24 08:59:11 UTC 2025
+2025-04-24 08:59:11,991 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Thu Apr 24 08:59:11 UTC 2025
+2025-04-24 08:59:12,001 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-04-24 08:59:12,016 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
+2025-04-24 09:03:29,705 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Thu Apr 24 09:03:29 UTC 2025
+2025-04-24 09:03:29,824 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Thu Apr 24 09:03:29 UTC 2025
+2025-04-24 09:03:29,835 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-04-24 09:03:29,850 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
+2025-04-24 11:00:22,867 INFO [NiFi Web Server-20] o.a.n.w.a.c.ValidationExceptionMapper org.apache.nifi.controller.exception.ValidationException: 2 validation errors. Returning Bad Request response.

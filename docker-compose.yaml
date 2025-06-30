@@ -1,0 +1,315 @@
+services:
+  orion:
+    image: fiware/orion
+    container_name: orion
+    hostname: orion
+    ports:
+      - "1026:1026"
+    depends_on:
+      - mongo
+    command: 
+      -dbURI mongodb://mongo
+      -corsOrigin __ALL
+    networks:
+      - fiware
+
+  mongo:
+    image: mongo:4.4
+    container_name: mongo
+    hostname: mongo
+    ports:
+      - "27017:27017"
+    command: --nojournal
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - fiware
+  
+  # sth-comet:
+  #   image: telefonicaiot/fiware-sth-comet
+  #   container_name: sth-comet
+  #   hostname: sth-comet
+  #   ports:
+  #     - "8666:8666"
+  #   depends_on:
+  #     - mongo
+  #   environment:
+  #     - STH_HOST=0.0.0.0
+  #     - DB_URI=mongo:27017
+  #   networks:
+  #     - fiware
+
+  cygnus:
+    image: fiware/cygnus-ngsi
+    hostname: cygnus
+    container_name: cygnus
+    depends_on:
+      - postgres-db
+    ports:
+      # - "5050:5050"
+      - "5051:5051"
+      - "5055:5055"
+      - "5080:5080" 
+    environment:
+      CYGNUS_MULTIAGENT : true
+      CYGNUS_SERVICE_PORT: 5055
+      CYGNUS_POSTGRESQL_SERVICE_PORT: 5055
+      
+      # PostgreSQL config
+      CYGNUS_POSTGRESQL_HOST: postgres-db
+      CYGNUS_POSTGRESQL_PORT: 5432
+      CYGNUS_POSTGRESQL_DATABASE: orion
+      CYGNUS_POSTGRESQL_USER: postgres
+      CYGNUS_POSTGRESQL_PASS: password
+      CYGNUS_POSTGRESQL_ENABLE: true
+      CYGNUS_POSTGRESQL_SERVICE: orion
+      CYGNUS_POSTGRESQL_DATA_MODEL: dm-by-entity-type-database #dm-by-entity-type-database
+      CYGNUS_POSTGRESQL_ATTR_PERSISTENCE: column
+      
+      CYGNUS_LOG_LEVEL: DEBUG # The logging level for Cygnus
+      CYGNUS_API_PORT: 5080
+      
+      CYGNUS_MONGO_SERVICE_PORT: 5051
+      CYGNUS_MONGO_HOSTS: localhost:27017
+      CYGNUS_MONGO_DB: orion
+      # CYGNUS_MONGO_USER =
+      # CYGNUS_MONGO_PASS=
+      
+      # CYGNUS_MYSQL_HOST : mysql
+      # CYGNUS_MYSQL_DB : orion
+      # CYGNUS_MYSQL_PORT : 3306
+      # CYGNUS_MYSQL_USER : root
+      # CYGNUS_MYSQL_PASS : 6447
+      # CYGNUS_MYSQL_DATA_MODEL : dm-by-entity-type-database
+      # CYGNUS_MYSQL_ATTR_PERSISTENCE: column
+      # CYGNUS_MYSQL_SERVICE_PORT : 5050
+    networks:
+      - fiware
+
+  postgres-db:
+    image: postgres
+    hostname: postgres-db
+    container_name: postgres-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_DB: orion
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - fiware
+  
+  # postgis:
+  #   image: postgis/postgis
+  #   hostname: postgis
+  #   container_name: postgis
+  #   environment:
+  #     # If you need to create multiple database you can add coma separated databases eg gis,data
+  #     POSTGRES_DB : orion
+  #     POSTGRES_USER: postgres
+  #     POSTGRES_PASS: password
+  #     POSTGRES_PASSWORD: 1111
+  #     # ALLOW_IP_RANGE: 0.0.0.0/0
+  #     # Add extensions you need to be enabled by default in the DB. Default are the five specified below
+  #     POSTGRES_MULTIPLE_EXTENSIONS: postgis,hstore,postgis_topology,postgis_raster,pgrouting
+  #     RUN_AS_ROOT: true
+  #   ports:
+  #     - "5433:5432"
+  #   restart: on-failure
+  #   volumes:
+  #     - postgis-data:/var/lib/postgresql
+  #     # - dbbackups:/backups
+  #   networks:
+  #     - fiware
+  
+  mysql:
+    image: mysql:5.7.22
+    hostname: mysql
+    container_name: mysql
+    restart: always
+    cap_add:
+      - SYS_NICE
+    environment:
+      MYSQL_ROOT_PASSWORD: 6447
+      MYSQL_DATABASE: orion
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: 1111
+    ports:
+      - '3306:3306'
+    # volumes:
+    #     - mysql_data:/var/lib/mysql
+    #     - ./mysql_data/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - fiware
+
+  iot-agent-json:
+    image: fiware/iotagent-json
+    hostname: iot-agent-json
+    container_name: iot-agent-json
+    restart: always
+    depends_on:
+      - mongo
+    environment:
+      - IOTA_CB_HOST = orion
+      - IOTA_CB_PORT = 1026
+      - IOTA_NORTH_PORT=4041
+      - IOTA_REGISTRY_TYPE=mongodb
+      - IOTA_LOG_LEVEL=DEBUG
+      - IOTA_TIMESTAMP=true
+      - IOTA_CB_NGSI_VERSION=v2
+      - IOTA_AUTOCAST=true
+      - IOTA_MONGO_HOST=mongo
+      - IOTA_MONGO_PORT=27017
+      - IOTA_MONGO_DB=orion
+      - IOTA_HTTP_PORT=7896
+      - IOTA_PROVIDER_URL=http://iot-agent-json:4041
+      - IOTA_AUTOCAST=true
+      - IOTA_DEFAULT_RESOURCE=/iot/json
+    ports:
+      - "4041:4041"
+      - "7896:7896"
+    networks:
+      - fiware
+
+  iot-agent-ul:
+    image: fiware/iotagent-ul
+    hostname: iot-agent-ul
+    container_name: iot-agent-ul
+    depends_on:
+      - mongo
+    ports:
+      - "4061:4061"
+      - "7897:7897"
+    environment:
+      - "IOTA_CB_HOST=orion"
+      - "IOTA_CB_PORT=1026"
+      - "IOTA_NORTH_PORT=4061"
+      - "IOTA_REGISTRY_TYPE=mongodb"
+      - "IOTA_LOG_LEVEL= DEBUG"
+      - "IOTA_TIMESTAMP=true"
+      - "IOTA_MONGO_HOST=mongo"
+      - "IOTA_MONGO_PORT=27017"
+      - "IOTA_MONGO_DB=orion"
+      - "IOTA_HTTP_PORT=7897"
+      - "IOTA_PROVIDER_URL=http://iot-agent:4061"
+      - "IOTA_AUTOCAST=true"
+    networks:
+      - fiware
+  
+  draco:
+    image: ging/fiware-draco
+    container_name: draco
+    hostname: draco
+    environment:
+      - NIFI_WEB_HTTPS_PORT=8443
+      - SINGLE_USER_CREDENTIALS_USERNAME=admin
+      - SINGLE_USER_CREDENTIALS_PASSWORD=pass1234567890
+    ports:
+      - "8443:8443"
+      - "5050:5050"
+    volumes:
+      - ./draco/conf:/opt/nifi/nifi-current/conf
+      - ./draco/content_repository:/opt/nifi/nifi-current/content_repository
+      - ./draco/database_repository:/opt/nifi/nifi-current/database_repository
+      - ./draco/flowfile_repository:/opt/nifi/nifi-current/flowfile_repository
+      - ./draco/logs:/opt/nifi/nifi-current/logs
+      - ./draco/provenance_repository:/opt/nifi/nifi-current/provenance_repository
+      - ./draco/state:/opt/nifi/nifi-current/state
+    networks:
+      - fiware
+  
+ 
+
+  # PERSEO
+  perseo-core:
+    image: fiware/perseo-core
+    hostname: perseo-core
+    container_name: perseo-core
+    environment:
+        - PERSEO_FE_URL=http://perseo-fe:9090
+        - MAX_AGE=6000
+        # - PERSEO_MONGO_ENDPOINT= localhost:27018
+    depends_on:
+        - mongo
+    ports:
+        - 8080:8080
+    deploy:
+        replicas: 1
+        restart_policy:
+            condition: on-failure
+    networks:
+        - fiware
+    
+  perseo-fe:
+    image: fiware/perseo
+    hostname: perseo-fe
+    container_name: perseo-fe
+    ports:
+        - 9090:9090
+    depends_on:
+        - perseo-core
+    environment:
+        PERSEO_MONGO_ENDPOINT: perseo-mongo[:27018]
+        PERSEO_CORE_URL: http://perseo-core:8080
+        PERSEO_LOG_LEVEL: debug
+        PERSEO_ORION_URL: http://orion:1026/
+        # - PERSEO_SMTP_HOST=www.hostname.com
+        # - PERSEO_SMTP_PORT=25
+        # - PERSEO_SMTP_SECURE=false
+    deploy:
+        replicas: 1
+        restart_policy:
+            condition: on-failure
+    networks:
+        - fiware
+
+  perseo-mongo:
+    image: mongo:4.4
+    container_name: perseo-mongo
+    hostname: perseo-mongo
+    ports:
+      - "27018:27017"
+    command: --nojournal
+    volumes:
+      - perseo_mongo_data:/data/db
+    networks:
+      - fiware
+  # FIN PERSEO
+
+  # fastapi:
+  #   image: fastapi
+  #   container_name: fastapi
+  #   hostname: fastapi
+  #   ports:
+  #     - "8000:8000"
+  #   networks:
+  #   - fiware
+
+
+volumes:
+  #MONGO
+  mongo_data: 
+  #POSTGRES
+  postgres_data:
+  #MYSQL
+  mysql_data:
+  #POSTGIS
+  postgis-data:
+  dbbackups:
+  mongo_perseo:
+  #DRACO
+  nifi_conf:
+  nifi_state:
+  nifi_db:
+  nifi_flowfile:
+  nifi_content:
+  nifi_provenance:
+  nifi_logs:
+  #PERSEO
+  perseo_mongo_data:
+
+networks:
+  fiware:
+    driver: bridge

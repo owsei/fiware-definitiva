@@ -1,0 +1,13 @@
+2025-04-15 08:11:10,053 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Tue Apr 15 08:11:10 UTC 2025
+2025-04-15 08:11:10,396 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Tue Apr 15 08:11:10 UTC 2025
+2025-04-15 08:11:10,411 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-04-15 08:11:10,427 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
+2025-04-15 09:05:21,437 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Tue Apr 15 09:05:21 UTC 2025
+2025-04-15 09:05:21,731 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Tue Apr 15 09:05:21 UTC 2025
+2025-04-15 09:05:21,740 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-04-15 09:05:21,755 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
+2025-04-15 09:58:06,407 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Tue Apr 15 09:58:06 UTC 2025
+2025-04-15 09:58:06,531 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Tue Apr 15 09:58:06 UTC 2025
+2025-04-15 09:58:06,543 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-04-15 09:58:06,560 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
+2025-04-15 12:26:37,072 INFO [NiFi Web Server-214] o.a.n.w.a.c.ResourceNotFoundExceptionMapper org.apache.nifi.web.ResourceNotFoundException: The FlowFile with UUID 0205299f-088d-428d-8476-4dee0ac50369 is no longer in the active queue.. Returning Not Found response.

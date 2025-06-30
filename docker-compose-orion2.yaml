@@ -1,0 +1,87 @@
+services:
+  orion2:
+    image: fiware/orion
+    container_name: orion2
+    hostname: orion2
+    ports:
+      - "1027:1026"
+    depends_on:
+      - mongo2
+    command: 
+      -dbURI mongodb://mongo
+      -corsOrigin __ALL
+    networks:
+      - fiware
+
+  mongo2:
+    image: mongo:4.4
+    container_name: mongo2
+    hostname: mongo2
+    ports:
+      - "27018:27017"
+    command: --nojournal
+    volumes:
+      - mongo_data2:/data/db
+    networks:
+      - fiware
+  
+  # iot-agent-json-orion2:
+  #   image: fiware/iotagent-json
+  #   hostname: iot-agent-json-orion2
+  #   container_name: iot-agent-json-orion2
+  #   restart: always
+  #   depends_on:
+  #     - mongo2
+  #   environment:
+  #     - IOTA_CB_HOST = orion2
+  #     - IOTA_CB_PORT = 1027
+  #     - IOTA_NORTH_PORT=4042
+  #     - IOTA_REGISTRY_TYPE=mongodb
+  #     - IOTA_LOG_LEVEL=DEBUG
+  #     - IOTA_TIMESTAMP=true
+  #     - IOTA_CB_NGSI_VERSION=v2
+  #     - IOTA_AUTOCAST=true
+  #     - IOTA_MONGO_HOST=mongo2
+  #     - IOTA_MONGO_PORT=27017
+  #     - IOTA_MONGO_DB=orion2
+  #     - IOTA_HTTP_PORT=7897
+  #     - IOTA_PROVIDER_URL=http://iot-agent-json:4041
+  #     - IOTA_AUTOCAST=true
+  #     - IOTA_DEFAULT_RESOURCE=/iot/json
+  #   ports:
+  #     - "4042:4041"
+  #     - "7898:7896"
+  #   networks:
+  #     - fiware
+
+  iot-agent-ul-orion2:
+    image: fiware/iotagent-ul
+    hostname: iot-agent-ul-orion2
+    container_name: fiware-iot-agent-orion2
+    depends_on:
+      - mongo2
+    ports:
+      - "4062:4061"
+      - "7899:7897"
+    environment:
+      - "IOTA_CB_HOST=orion2"
+      - "IOTA_CB_PORT=1027"
+      - "IOTA_NORTH_PORT=4062"
+      - "IOTA_REGISTRY_TYPE=mongodb"
+      - "IOTA_LOG_LEVEL= DEBUG"
+      - "IOTA_TIMESTAMP=true"
+      - "IOTA_MONGO_HOST=mongo2"
+      - "IOTA_MONGO_PORT=27018"
+      - "IOTA_MONGO_DB=orion"
+      - "IOTA_HTTP_PORT=7899"
+      - "IOTA_PROVIDER_URL=http://iot-agent:4062"
+      - "IOTA_AUTOCAST=true"
+    networks:
+      - fiware
+
+volumes:
+  mongo_data2: 
+
+networks:
+  fiware:
+    driver: bridge
