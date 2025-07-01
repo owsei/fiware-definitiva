@@ -1,0 +1,27 @@
+2025-06-30 10:03:11,957 INFO [main] org.apache.nifi.NiFi Launching NiFi...
+2025-06-30 10:03:12,165 INFO [main] o.a.nifi.properties.NiFiPropertiesLoader Loaded 198 properties from /opt/nifi/nifi-current/./conf/nifi.properties
+2025-06-30 10:03:12,184 INFO [main] org.apache.nifi.NiFi Application Properties loaded [198]
+2025-06-30 10:03:12,193 INFO [main] org.apache.nifi.BootstrapListener Started Bootstrap Listener, Listening for incoming requests on port 37145
+2025-06-30 10:03:12,215 INFO [main] org.apache.nifi.BootstrapListener Successfully initiated communication with Bootstrap
+2025-06-30 10:03:12,235 INFO [main] org.apache.nifi.nar.NarUnpacker Expanding 110 NAR files with all processors...
+2025-06-30 10:03:14,992 INFO [pool-2-thread-2] org.apache.nifi.BootstrapListener Received SHUTDOWN request from Bootstrap
+2025-06-30 10:03:14,994 INFO [pool-2-thread-2] org.apache.nifi.NiFi Application Server shutdown started
+2025-06-30 10:03:14,995 INFO [pool-2-thread-2] org.apache.nifi.NiFi Application Server shutdown completed
+2025-06-30 10:03:47,261 INFO [main] org.apache.nifi.NiFi Launching NiFi...
+2025-06-30 10:03:47,453 INFO [main] o.a.nifi.properties.NiFiPropertiesLoader Loaded 198 properties from /opt/nifi/nifi-current/./conf/nifi.properties
+2025-06-30 10:03:47,469 INFO [main] org.apache.nifi.NiFi Application Properties loaded [198]
+2025-06-30 10:03:47,479 INFO [main] org.apache.nifi.BootstrapListener Started Bootstrap Listener, Listening for incoming requests on port 35185
+2025-06-30 10:03:47,494 INFO [main] org.apache.nifi.BootstrapListener Successfully initiated communication with Bootstrap
+2025-06-30 10:03:47,510 INFO [main] org.apache.nifi.nar.NarUnpacker Expanding 110 NAR files with all processors...
+2025-06-30 10:03:48,745 INFO [pool-2-thread-2] org.apache.nifi.BootstrapListener Received SHUTDOWN request from Bootstrap
+2025-06-30 10:03:48,746 INFO [pool-2-thread-2] org.apache.nifi.NiFi Application Server shutdown started
+2025-06-30 10:03:48,747 INFO [pool-2-thread-2] org.apache.nifi.NiFi Application Server shutdown completed
+2025-06-30 10:14:00,381 INFO [main] org.apache.nifi.NiFi Launching NiFi...
+2025-06-30 10:14:00,603 INFO [main] o.a.nifi.properties.NiFiPropertiesLoader Loaded 198 properties from /opt/nifi/nifi-current/./conf/nifi.properties
+2025-06-30 10:14:00,624 INFO [main] org.apache.nifi.NiFi Application Properties loaded [198]
+2025-06-30 10:14:00,728 INFO [main] org.apache.nifi.BootstrapListener Started Bootstrap Listener, Listening for incoming requests on port 35047
+2025-06-30 10:14:00,769 INFO [main] org.apache.nifi.BootstrapListener Successfully initiated communication with Bootstrap
+2025-06-30 10:14:00,810 INFO [main] org.apache.nifi.nar.NarUnpacker Expanding 110 NAR files with all processors...
+2025-06-30 10:14:01,355 INFO [pool-2-thread-2] org.apache.nifi.BootstrapListener Received SHUTDOWN request from Bootstrap
+2025-06-30 10:14:01,356 INFO [pool-2-thread-2] org.apache.nifi.NiFi Application Server shutdown started
+2025-06-30 10:14:01,357 INFO [pool-2-thread-2] org.apache.nifi.NiFi Application Server shutdown completed

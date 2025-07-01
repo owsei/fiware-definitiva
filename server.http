@@ -1,0 +1,574 @@
+
+GET https://172.30.188.48:5693/api/cpu/?token=b9e2fcb6272e870f2fc7bf3ac024d201
+###
+#********************* FIWARE DEFINITIVA *****************************
+
+http://172.30.188.48/
+
+@host=172.30.188.48:1026
+
+#********************* VERSIONES *****************************
+#ORION VERSION
+###
+GET http://172.30.188.48:1026/version
+###
+GET http://172.30.188.48:1027/version
+##
+###SUBSCRIPCIONES EN ORION DE CYGNUS
+###
+GET http://172.30.188.48:1026/v2/subscriptions/ HTTP/1.1
+fiware-service: pamplona
+fiware-servicepath: /iots
+###
+curl -X GET "http://172.30.188.48:8666/version"
+###
+
+#VERSION IOT AGENT 
+curl -X GET "http://172.30.188.48:4041/iot/about"
+###
+
+#VERSION IOT AGENT UL
+curl -X GET "http://172.30.188.48:4061/iot/about"
+###
+#CYGNUS VERSION
+GET http://172.30.188.48:5080/v1/version
+###
+
+###NIFI https
+curl -X GET 'https://172.30.188.48:9090/nifi-api/system-diagnostics'
+####
+
+#********************* ORION *****************************
+#ORION VERSION
+GET http://172.30.188.48:1026/version
+###
+#ENTIDADES DADAS DE ALTA EN ORION
+curl -X GET "http://172.30.188.48:1026/v2/entities/"\
+  -H "fiware-service: pamplona" \
+  -H "fiware-servicepath: /iots" \
+
+###
+#AÑADIR ENTIDADES
+curl -X POST 'http://172.30.188.48:1026/v2/entities/' 
+-H 'Content-Type: application/json'
+-d '{
+        "id":"Room1",
+        "type":"Room",
+        "temperature":{
+            "type":"Number",
+            "value":25
+        }
+    }'
+###
+
+curl -X POST 'http://172.30.188.48:1026/v2/entities/' 
+-H 'Content-Type: application/json' 
+-d '{
+        "id":"Room2",
+        "type":"Room",
+        "temperature":{
+            "type":"Number",
+            "value":23
+        }
+    }'
+###
+
+###BUSCAR ENTIDADES POR ID 
+http://172.30.188.48:1026/v2/entities/Room1?options=keyValues
+
+###
+http://172.30.188.48:1026/v2/entities/Room2?options=keyValues
+###
+
+###************************************************************************
+###***********************************************************************
+###                          IoT Agent
+###************************************************************************
+###***********************************************************************
+
+###SABER SI EL SERVICIO ESTA FUNCIONANDO
+curl -X GET 'http://172.30.188.48:4041/iot/about'
+###
+
+###*************************************************************************
+
+###CONFIGURAR DISPOSITIVOS JSON EN ORION IOTs
+curl -X POST "http://172.30.188.48:4041/iot/services" \
+  -H "Content-Type: application/json" \
+  -H "fiware-service: pamplona" \
+  -H "fiware-servicepath: /iots" \
+  -d '{
+    "services": [{
+      "apikey": "iot-json-key",
+      "cbroker": "http://orion:1026",
+      "entity_type": "Device",
+      "resource": "/iot/json"
+    }]
+  }'
+
+###
+
+###**********************************************************************
+###REGISTRAR DISPOSITIVOS JSON EN ORION
+curl -X POST "http://172.30.188.48:4041/iot/devices" \
+  -H "Content-Type: application/json" \
+  -H "fiware-service: pamplona" \
+  -H "fiware-servicepath: /iots" \
+  -d '{
+    "devices": [
+      {
+        "device_id": "Device001",
+        "entity_name": "Device",
+        "entity_type": "Device",
+        "attributes": [
+          { "object_id": "t", "name": "temperature", "type": "Number" },
+          { "object_id": "h", "name": "humidity", "type": "Number" }
+        ],
+        "static_attributes": [
+          { "name": "location", "type": "geo:json", "value": "42.818372,-1.644066" }
+        ],
+        "protocol": "IoT-JSON",
+        "apikey": "iot-json-key"
+      }
+    ]
+  }'
+###
+
+
+###RECIBIR MEDIDAS
+curl -iX POST 'http://172.30.188.48:7896/iot/json?k=iot-json-key&i=Device001' \
+  -H 'Content-Type: application/json' \
+  -d '{"t":23,"h":55}'
+
+###
+curl -X GET "http://172.30.188.48:1026/v2/entities" \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+
+###
+curl -iX POST \
+  'http://172.30.188.48:7896/iot/json?k=iot-json-key&i=roomparking001' \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /parking"
+  -H 'Content-Type: application/json' \
+  -d '{"t":25.5,"h":55}'
+###
+
+curl -X GET "http://172.30.188.48:1026/v2/entities" \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+###
+
+
+###*****************************************************************
+###************************************************************************
+###***********************************************************************
+###                          IoT Agent UL
+###************************************************************************
+###***********************************************************************
+###REGISTRAR UN SERVICIO DE IOT-UL AIR QUALITY
+curl -iX POST 'http://172.30.188.48:4061/iot/services' \
+  -H 'Content-Type: application/json' \
+  -H 'fiware-service: pamplona' \
+  -H 'fiware-servicepath: /iots' \
+  -d '{
+ "services": [
+   {
+     "apikey":      "iot-json-key",
+     "cbroker":     "http://orion:1026",
+     "entity_type": "Device",
+     "resource":    "/iot/d"
+   }
+ ]
+}'
+###
+
+curl -iX POST 'http://172.30.188.48:4061/iot/services' \
+-H 'fiware-service: pamplonaul' \
+-H 'fiware-servicepath: /' \
+-H 'Content-Type: application/json' \
+--data-raw '{
+    "services": [
+        {
+          "apikey": "4jggokgpepnvsb2uv4s40d59ov",
+          "cbroker": "http://orion:1026",
+          "entity_type": "Device",
+          "resource": "/iot/d"
+        }
+    ]
+}'
+###
+###REGISTRAR UN SENSOR IOT UL
+
+curl -L -X POST 'http://172.30.188.48:4061/iot/devices' \
+    -H 'fiware-service: pamplona' \
+    -H 'fiware-servicepath: /' \
+    -H 'Content-Type: application/json' \
+    --data-raw '{
+    "devices": [
+        {
+        "device_id": "temperature001",
+        "entity_name": "temperature001",
+        "entity_type": "Device",
+        "apikey": "4jggokgpepnvsb2uv4s40d59ov",
+        "timezone": "Europe/Berlin",
+        "attributes": [
+            {
+            "object_id": "t",
+            "name": "temperature",
+            "type": "Number"
+            }
+        ]
+        }
+    ]
+    }'
+###
+
+GET "http://172.30.188.48:7896/iot/d?i=temperature001&k=4jggokgpepnvsb2uv4s40d59ov"
+###
+
+curl -L -X POST 'http://172.30.188.48:7897/iot/d?k=4jggokgpepnvsb2uv4s40d59ov&i=temperature001' \
+    -H 'Content-Type: text/plain' \
+    --data-raw 't|26'
+###
+curl -X POST 'http://172.30.188.48:4061/iot/devices' \
+  -H "Content-Type: application/json" \
+  -H "fiware-service: pamplona" \
+  -H "fiware-servicepath: /" \
+  -d '{
+  "devices": [
+    {
+      "device_id": "AirQuality0001",
+      "entity_name": "AirQuality0001",
+      "entity_type": "AirQuality",
+      "protocol":    "IoTA-UltraLight",
+      "transport":   "HTTP",
+      "attributes": [
+        { "object_id": "t", "name": "temperature", "type": "Integer" },
+        { "object_id": "h", "name": "humidity", "type": "Integer" },
+        { "object_id": "q", "name": "airquality", "type": "Integer" },
+        { "object_id": "l", "name": "location", "type": "geo:json" }
+      ],
+      "static_attributes": [
+        { "name": "temperature", "type": "Integer", "value": 0 },
+        { "name": "humidity", "type": "Integer", "value": 0 },
+        { "name": "airquality", "type": "Integer", "value": 0 },
+        { "name": "location", "type": "Text", "value": "0,0" }
+      ],
+      "apikey": "iot-json-key",
+      "autocreate": true
+    }
+  ]
+}' 
+###
+curl -X POST 'http://172.30.188.48:4061/iot/devices' \
+  -H "Content-Type: application/json" \
+  -H "fiware-service: pamplona" \
+  -H "fiware-servicepath: /" \
+  -d '{
+  "devices": [
+    {
+      "device_id": "AirQuality0002",
+      "entity_name": "AirQuality0002",
+      "entity_type": "AirQuality",
+      "protocol":    "IoTA-UltraLight",
+      "transport":   "HTTP",
+      "attributes": [
+        { "object_id": "t", "name": "temperature", "type": "Integer" },
+        { "object_id": "h", "name": "humidity", "type": "Integer" },
+        { "object_id": "q", "name": "airquality", "type": "Integer" },
+        { "object_id": "l", "name": "location", "type": "geo:json" }
+      ],
+      "static_attributes": [
+        { "name": "temperature", "type": "Integer", "value": 0 },
+        { "name": "humidity", "type": "Integer", "value": 0 },
+        { "name": "airquality", "type": "Integer", "value": 0 },
+        { "name": "location", "type": "Text", "value": "0,0" }
+      ],
+      "apikey": "iot-json-key"
+    }
+  ]
+}' 
+###
+
+curl -iX POST "http://iot-agent:7896/iot/d?i=Device001&k=iot-json-key"
+###
+###ASIGNAR/CAMBIAR DATOS
+curl -iX POST 'http://172.30.188.48:7897/iot/d?k=iot-json-key&i=Device001'
+  -H 'Content-Type:text/plain' 
+  -H "Fiware-Service: pamplona"
+  -H "Fiware-ServicePath: /iots"
+  -d 't|34|h|50'
+###
+
+curl -iX POST 'http://172.30.188.48:7896/iot/ul?k=iot-json-key&i=AirQuality0002'
+  -H 'Content-Type:text/plain' \
+  -H "Fiware-Service: iot_ul_service" \
+  -H "Fiware-ServicePath: /iot_ul" \
+  -d 't|23|h|55|q|3|gps|42.813288,-1.648511'
+###
+
+###SABER SI LAS ENTIDADES EN ORION SE CREAN BIEN
+curl -X GET "http://172.30.188.48:1026/v2/entities" \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /"
+
+###SABER SI LAS ENTIDADES EN ORION SE CREAN BIEN
+curl -X GET "http://172.30.188.48:1026/v2/types" \
+  -H "Fiware-Service: iot_ul_service" \
+  -H "Fiware-ServicePath: /iot_ul"
+###
+
+
+###*******************STH COMET**************************
+
+curl -X GET "http://0.0.0.0:8666/notify"
+###
+
+curl -X GET "http://172.30.188.48:8666/version"
+###
+
+get http://172.30.188.48:8090/
+
+###
+curl -X GET 'http://sth-comet:8666/version'
+###
+
+curl -X GET "http://172.30.188.48:8666/STH/v1/"
+###
+curl -X GET "http://172.30.188.48:8666/STH/v1/contextEntities/type/Device/id/room001/attributes/temperature" \
+  -H "Accept: application/json" \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+###
+curl -X GET "http://172.30.188.48:8666/STH/v2/entities/room001/attrs/temperature?type=Device&hLimit=3&hOffset=0&dateFrom=2024-01-01T00:00:00.000Z&dateTo=2026-01-01T23:59:59.999Z" \
+-H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+###
+
+curl -X GET "http://172.30.188.48:8666/STH/v2/entities/room001/attrs/temperature?type=Device&hLimit=3&hOffset=0&dateFrom=2024-01-01T00:00:00.000Z&dateTo=2026-01-01T23:59:59.999Z" \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+###
+
+curl -X GET "http://172.30.188.48:8666/STH/v2/contextEntities/room001"
+ -H "Accept: application/json" \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+###
+
+curl -X GET "http://172.30.188.48:1026/v2/subscriptions" 
+  -H "Accept: application/json"
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+###
+
+  curl -X POST "http://172.30.188.48:1026/v2/subscriptions" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "description": "Suscripción para guardar histórico en STH-Comet",
+    "subject": {
+      "entities": [
+        { "idPattern": ".*"}
+      ]
+    },
+    "notification": {
+      "http": {
+        "url": "http://sth-comet:8666/notify"
+      },
+      "attrsFormat": "keyValues"
+    },
+    "expires": "2040-01-01T00:00:00.00Z",
+    "throttling": 0
+  }'
+###
+
+curl -X GET "http://172.30.188.48:8666/STH/v1/contextEntities/type/AirQuality/id/AirQuality0001/attributes/Temperature?lastN=10" \
+  -H "Fiware-Service: iot_ul_service" \
+  -H "Fiware-ServicePath: /iot_ul"
+###
+
+curl -X GET "http://172.30.188.48:8666/v1/" 
+###
+
+###******************* CYGNUS******************************
+
+###CYGNUS VERSION
+get http://172.30.188.48:5080/v1/version
+
+###
+###SUBSCRIPCIONES EN ORION DE CYGNUS
+curl -X GET " http://172.30.188.48:1026/v2/subscriptions/"\
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+###
+
+###SUBCRIPCION PARA POSTGRES
+
+curl -X POST 'http://172.30.188.48:1026/v2/subscriptions'
+  -H 'Content-Type: application/json' 
+  -H "Fiware-Service: pamplona" 
+  -H "Fiware-ServicePath: /iots" \
+    -d '{
+    "description": "Notify Cygnus/Draco of changes in IoT Agent",
+    "subject": {
+        "entities": [
+        {
+            "idPattern": ".*"
+        }
+        ]
+    },
+    "notification": {
+        "http": {
+        "url": "http://172.30.188.48:5050/notify"
+        }
+    },
+    "throttling": 0
+    }'
+###
+
+curl -iX POST \
+  'http://172.30.188.48:1026/v2/subscriptions' \
+  -H 'Content-Type: application/json' \
+  -H 'fiware-service: pamplona' \
+  -H 'fiware-servicepath: /movilidad' \
+  -d '{
+  "description": "Notify Cygnus of all context changes",
+  "subject": {
+    "entities": [
+      {
+        "idPattern": ".*"
+      }
+    ]
+  },
+  "notification": {
+    "http": {
+      "url": "http://cygnus:5050/notify"
+    }
+  },
+  "throttling": 0
+}'
+###
+
+curl -iX POST \
+  'http://172.30.188.48:1026/v2/subscriptions' \
+  -H 'Content-Type: application/json' \
+  -H 'fiware-service: pamplona' \
+  -H 'fiware-servicepath: /iot' \
+  -d '{
+  "description": "Notify nifi of all context changes",
+  "subject": {
+    "entities": [
+      {
+        "idPattern": ".*"
+      }
+    ]
+  },
+  "notification": {
+    "http": {
+      "url": "http://cygnus:5050/notify"
+    }
+  },
+  "throttling": 0
+}'
+###
+
+###**************************************************************************
+
+curl -X GET 'http://172.30.188.48:1026/v2/subscriptions'
+###
+
+curl -X GET "http://172.30.188.48:1026/v2/entities/"
+###
+
+curl -X GET 'http://172.30.188.48:4041/iot/about'
+###
+
+http://172.30.188.48:1026/v2/entities/Room1?options=keyValues
+###
+http://172.30.188.48:1026/v2/entities/?options=keyValues
+###
+###ACTUALIZAR DATOS ENTIDAD 
+curl -iX POST 'http://172.30.188.48:1026/v2/entities/room001/attrs' \
+  -H 'Content-Type: application/json' \
+  -H "Fiware-Service: pamplona" \
+  -H "Fiware-ServicePath: /iots"
+    -d '
+    {
+        "temperature": {"value": 30}
+    }'
+###
+
+curl -X PATCH 'http://172.30.188.48:1026/v2/entities/Room1/attrs' \
+-H 'Content-Type: application/json' \
+-d '{
+  "temperature": {
+    "value": 66
+  }
+}'
+###
+
+curl -X PATCH 'http://172.30.188.48:1026/v2/entities/Room2/attrs' \
+-H 'Content-Type: application/json' \
+-d '{
+  "temperature": {
+    "value": 44
+  }
+}'
+
+###
+
+###
+GET http://172.30.188.48:1026/v2/subscriptions/ HTTP/1.1
+fiware-service: pamplona
+fiware-servicepath: /iots
+###
+
+###
+curl -iX POST \
+  'http://172.30.188.48:1026/v2/subscriptions' \
+  -H 'Content-Type: application/json' \
+  -H 'fiware-service: pamplonaul' \
+  -H 'fiware-servicepath: /' \
+  -d '{
+  "description": "Notify nifi of all context changes",
+  "subject": {
+    "entities": [
+      {
+        "idPattern": ".*"
+      }
+    ]
+  },
+  "notification": {
+    "http": {
+      "url": "http://172.30.188.48:5055/notify"
+    }
+  },
+  "throttling": 0
+}'
+
+
+
+###
+POST http://172.30.188.48:5050/notify HTTP/1.1
+Fiware-Service: pamplona
+Fiware-ServicePath: /iots
+Content-Type: application/json
+
+{
+  "data": {
+    "id": "Room1",
+    "type": "Room",
+    "temperature": {
+      "value": 30,
+      "type": "Number"
+    }
+  },
+  "dataFormat": "keyValues",
+  "originatorId": "Room1",
+  "subscriptionId": "5f4e2b0c-3a7d-4b8e-9c3d-6f8a2b0c3a7d"
+}
+
+
+###
+./opt/nifi/nifi-current/drivers/postgresql-42.2.4.jar
