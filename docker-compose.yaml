@@ -169,11 +169,12 @@ services:
       - NIFI_WEB_HTTPS_PORT=8443
       - SINGLE_USER_CREDENTIALS_USERNAME=admin
       - SINGLE_USER_CREDENTIALS_PASSWORD=pass1234567890
+      - NIFI_WEB_PROXY_HOST=127.0.0.1,localhost,172.30.188.48:8443 
     ports:
       - "8443:8443"
       - "5050:5050"
     volumes:
-      # - ./draco/conf:/opt/nifi/nifi-current/conf
+      # - ./draco/conf/:/opt/nifi/nifi-current/conf
       - ./draco/content_repository:/opt/nifi/nifi-current/content_repository
       - ./draco/database_repository:/opt/nifi/nifi-current/database_repository
       - ./draco/flowfile_repository:/opt/nifi/nifi-current/flowfile_repository
