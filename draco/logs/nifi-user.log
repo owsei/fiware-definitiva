@@ -12,3 +12,7 @@
 2025-07-01 08:57:24,075 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer
 2025-07-01 08:58:35,852 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.25.0.1 [<anonymous>] GET https://localhost:8443/nifi-api/flow/current-user
 2025-07-01 08:58:35,855 WARN [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication Failed 172.25.0.1 GET https://localhost:8443/nifi-api/flow/current-user [Anonymous authentication has not been configured.]
+2025-07-01 10:25:52,409 INFO [main] o.a.n.a.FileUserGroupProvider Users/Groups file loaded at Tue Jul 01 10:25:52 UTC 2025
+2025-07-01 10:25:52,546 INFO [main] o.a.n.a.FileAccessPolicyProvider Authorizations file loaded at Tue Jul 01 10:25:52 UTC 2025
+2025-07-01 10:25:52,557 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Initializing Authorizer
+2025-07-01 10:25:52,568 INFO [main] o.a.n.a.single.user.SingleUserAuthorizer Configuring Authorizer

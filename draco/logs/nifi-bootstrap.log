@@ -60,3 +60,22 @@
 2025-07-01 09:43:29,442 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
 2025-07-01 09:43:30,419 INFO [main] org.apache.nifi.bootstrap.RunNiFi A shutdown was initiated. Will not restart NiFi
 2025-07-01 09:43:31,449 INFO [main] org.apache.nifi.bootstrap.Command NiFi has finished shutting down.
+2025-07-01 10:25:28,863 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2025-07-01 10:25:28,875 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2025-07-01 10:25:28,876 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2025-07-01 10:25:28,877 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2025-07-01 10:25:28,902 INFO [main] org.apache.nifi.bootstrap.RunNiFi Runtime Java version: 1.8.0_322
+2025-07-01 10:25:28,942 INFO [main] org.apache.nifi.bootstrap.Command Starting Apache NiFi...
+2025-07-01 10:25:28,943 INFO [main] org.apache.nifi.bootstrap.Command Working Directory: /opt/nifi/nifi-current
+2025-07-01 10:25:28,944 INFO [main] org.apache.nifi.bootstrap.Command Command: /usr/local/openjdk-8/bin/java -classpath /opt/nifi/nifi-current/./conf:/opt/nifi/nifi-current/./lib/jcl-over-slf4j-1.7.32.jar:/opt/nifi/nifi-current/./lib/logback-core-1.2.10.jar:/opt/nifi/nifi-current/./lib/nifi-server-api-1.15.3.jar:/opt/nifi/nifi-current/./lib/nifi-properties-1.15.3.jar:/opt/nifi/nifi-current/./lib/jetty-schemas-3.1.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-api-1.15.3.jar:/opt/nifi/nifi-current/./lib/javax.servlet-api-3.1.0.jar:/opt/nifi/nifi-current/./lib/nifi-runtime-1.15.3.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-bootstrap-1.15.3.jar:/opt/nifi/nifi-current/./lib/nifi-api-1.15.3.jar:/opt/nifi/nifi-current/./lib/slf4j-api-1.7.32.jar:/opt/nifi/nifi-current/./lib/nifi-nar-utils-1.15.3.jar:/opt/nifi/nifi-current/./lib/logback-classic-1.2.10.jar:/opt/nifi/nifi-current/./lib/nifi-framework-api-1.15.3.jar:/opt/nifi/nifi-current/./lib/jul-to-slf4j-1.7.32.jar:/opt/nifi/nifi-current/./lib/nifi-property-utils-1.15.3.jar:/opt/nifi/nifi-current/./lib/log4j-over-slf4j-1.7.32.jar -Dorg.apache.jasper.compiler.disablejsr199=true -Xmx512m -Xms512m -Dcurator-log-only-first-connection-issue-as-error-level=true -Djavax.security.auth.useSubjectCredsOnly=true -Djava.security.egd=file:/dev/urandom -Dzookeeper.admin.enableServer=false -Dsun.net.http.allowRestrictedHeaders=true -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djava.protocol.handler.pkgs=sun.net.www.protocol -Dnifi.properties.file.path=/opt/nifi/nifi-current/./conf/nifi.properties -Dnifi.bootstrap.listen.port=43913 -Dapp=NiFi -Dorg.apache.nifi.bootstrap.config.log.dir=/opt/nifi/nifi-current/logs org.apache.nifi.NiFi 
+2025-07-01 10:25:28,968 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 107
+2025-07-01 10:25:29,983 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 45323
+2025-07-01 11:16:33,630 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2025-07-01 11:16:33,639 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2025-07-01 11:16:33,640 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2025-07-01 11:16:33,640 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2025-07-01 11:16:33,665 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi has accepted the Shutdown Command and is shutting down now
+2025-07-01 11:16:33,702 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2025-07-01 11:16:35,705 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2025-07-01 11:16:36,214 INFO [main] org.apache.nifi.bootstrap.RunNiFi A shutdown was initiated. Will not restart NiFi
+2025-07-01 11:16:37,720 INFO [main] org.apache.nifi.bootstrap.Command NiFi has finished shutting down.
