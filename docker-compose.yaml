@@ -184,17 +184,19 @@ services:
       - fiware
  
   timescaledb:
-    image: timescale/timescaledb-ha:pg15
-    container_name: postgis_timescale
+    image: timescale/timescaledb:latest-pg17
+    container_name: timescaledb
     environment:
       POSTGRES_DB: orion
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
     ports:
       - "5432:5432"
     volumes:
       - ./postgis:/var/lib/postgresql/data
     restart: unless-stopped
+    networks:
+      - fiware
 
 volumes:
   #MONGO

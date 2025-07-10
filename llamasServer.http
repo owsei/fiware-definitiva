@@ -147,6 +147,10 @@ curl -X POST 'http://172.30.188.48:1026/v2/subscriptions/'
     h text null,
     t text null
   );
+
+
+  CREATE EXTENSION IF NOT EXISTS timescaledb;
+CREATE EXTENSION IF NOT EXISTS postgis;
  
 
 ###ENVIAR DATOS AL DISPOSITIVO ULTRALIGHT
