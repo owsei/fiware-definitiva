@@ -184,7 +184,7 @@ services:
       - fiware
  
   timescaledb:
-    image: timescale/timescaledb-postgis:latest-pg14
+    image: timescale/timescaledb-ha:pg15
     container_name: postgis_timescale
     environment:
       POSTGRES_DB: orion
@@ -192,6 +192,8 @@ services:
       POSTGRES_PASSWORD: password
     ports:
       - "5432:5432"
+    volumes:
+      - ./postgis:/var/lib/postgresql/data
     restart: unless-stopped
 
 volumes:
