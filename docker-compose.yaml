@@ -72,20 +72,20 @@ services:
     networks:
       - fiware
 
-  postgis:
-    image: postgis/postgis:latest
-    hostname: postgis
-    container_name: postgis
-    ports:
-      - "5432:5432"
-    environment:
-      POSTGRES_PASSWORD: 1234
-      POSTGRES_USER: admin
-      POSTGRES_DB: orion
-    volumes:
-      - ./postgis:/var/lib/postgresql/data
-    networks:
-      - fiware
+  # postgis:
+  #   image: postgis/postgis:latest
+  #   hostname: postgis
+  #   container_name: postgis
+  #   ports:
+  #     - "5432:5432"
+  #   environment:
+  #     POSTGRES_PASSWORD: 1234
+  #     POSTGRES_USER: admin
+  #     POSTGRES_DB: orion
+  #   volumes:
+  #     - ./postgis:/var/lib/postgresql/data
+  #   networks:
+  #     - fiware
   
   mysql:
     image: mysql:5.7.22
