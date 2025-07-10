@@ -1,6 +1,12 @@
-curl -X GET http://localhost:1026/version
+curl -X GET http://172.30.188.48:1026/version
 ###
-curl -X GET "http://localhost:1026/v2/subscriptions/"
+curl -X GET http://pmplvddock02:1026/version
+###
+curl -X GET "http://172.30.188.48:1026/v2/subscriptions/"
+###
+curl -X GET "http://pmplvddock02:1026/v2/subscriptions/"
+###
+
 
 ### COSNULTAR GRUPOS DE DISPOSITIVOS YA CONFIGURADOS
 #### HAY QUE CAMBIAR SERVICE Y SERVICEPATH PARA LOS DISTINTOS DISPOSITIVOS

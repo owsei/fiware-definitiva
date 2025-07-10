@@ -6,17 +6,12 @@
 ###
 GET http://localhost:1026/version
 ###
-GET http://localhost:1027/version
-##
 ###SUBSCRIPCIONES EN ORION DE CYGNUS
 ###
 GET http://localhost:1026/v2/subscriptions/ HTTP/1.1
 fiware-service: pamplona
 fiware-servicepath: /iots
 ###
-curl -X GET "http://localhost:8666/version"
-###
-
 #VERSION IOT AGENT 
 curl -X GET "http://localhost:4041/iot/about"
 ###
@@ -29,7 +24,8 @@ GET http://localhost:5080/v1/version
 ###
 
 ###NIFI https
-curl -X GET 'https://localhost:9090/nifi-api/system-diagnostics'
+# curl -X GET 'https://localhost:9090/nifi-api/system-diagnostics'
+curl -X GET https://localhost:8443/nifi-api/system-diagnostics
 ####
 
 #********************* ORION *****************************
@@ -467,7 +463,9 @@ curl -iX POST \
 
 ###**************************************************************************
 
-curl -X GET 'http://localhost:1026/v2/subscriptions'
+curl -X GET 'http://localhost:1026/v2/subscriptions'\
+  -H 'fiware-service: pamplona' \
+  -H 'fiware-servicepath: /iot' \
 ###
 
 curl -X GET "http://localhost:1026/v2/entities/"

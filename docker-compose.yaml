@@ -25,7 +25,6 @@ services:
     networks:
       - fiware
   
-
   cygnus:
     image: fiware/cygnus-ngsi
     hostname: cygnus
@@ -73,20 +72,20 @@ services:
     networks:
       - fiware
 
-  # postgres-db:
-  #   image: postgres
-  #   hostname: postgres-db
-  #   container_name: postgres-db
-  #   ports:
-  #     - "5430:5432"
-  #   environment:
-  #     POSTGRES_PASSWORD: password
-  #     POSTGRES_USER: postgres
-  #     POSTGRES_DB: orion
-  #   volumes:
-  #     - postgres_data:/var/lib/postgresql/data
-  #   networks:
-  #     - fiware
+  postgis:
+    image: postgis/postgis:latest
+    hostname: postgis
+    container_name: postgis
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_USER: admin
+      POSTGRES_DB: orion
+    volumes:
+      - ./postgis:/var/lib/postgresql/data
+    networks:
+      - fiware
   
   mysql:
     image: mysql:5.7.22
@@ -169,7 +168,7 @@ services:
       - NIFI_WEB_HTTPS_PORT=8443
       - SINGLE_USER_CREDENTIALS_USERNAME=admin
       - SINGLE_USER_CREDENTIALS_PASSWORD=pass1234567890
-      - NIFI_WEB_PROXY_HOST=127.0.0.1,localhost,172.30.188.48:8443 
+      - NIFI_WEB_PROXY_HOST=127.0.0.1,localhost,172.30.188.48:8443,pmplvddock02:8443 
     ports:
       - "8443:8443"
       - "5050:5050"
@@ -183,8 +182,17 @@ services:
       # - ./draco/state:/opt/nifi/nifi-current/state
     networks:
       - fiware
-  
  
+  timescaledb:
+    image: timescale/timescaledb:latest-pg17
+    container_name: timescaledb
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: timescaledb
+    ports:
+      - "5434:5432"
+    restart: unless-stopped
+
 volumes:
   #MONGO
   mongo_data: 
