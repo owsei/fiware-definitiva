@@ -43,10 +43,10 @@ services:
       
       # PostgreSQL config
       CYGNUS_POSTGRESQL_HOST: postgis
-      CYGNUS_POSTGRESQL_PORT: 5432
+      CYGNUS_POSTGRESQL_PORT: 5434
       CYGNUS_POSTGRESQL_DATABASE: orion
-      CYGNUS_POSTGRESQL_USER: admin
-      CYGNUS_POSTGRESQL_PASS: admin
+      CYGNUS_POSTGRESQL_USER: postgres
+      CYGNUS_POSTGRESQL_PASS: 1234
       # CYGNUS_POSTGRESQL_ENABLE_CACHE: true
       CYGNUS_POSTGRESQL_SERVICE: orion
       CYGNUS_POSTGRESQL_DATA_MODEL: dm-by-entity-type-database #dm-by-entity-type-database
@@ -184,13 +184,14 @@ services:
       - fiware
  
   timescaledb:
-    image: timescale/timescaledb:latest-pg17
-    container_name: timescaledb
+    image: timescale/timescaledb-postgis:latest-pg14
+    container_name: postgis_timescale
     environment:
-      POSTGRES_PASSWORD: 1234
-      POSTGRES_DB: timescaledb
+      POSTGRES_DB: orion
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
     ports:
-      - "5434:5432"
+      - "5432:5432"
     restart: unless-stopped
 
 volumes:
