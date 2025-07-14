@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  <name>geopamplona_postgis</name>
+  <type>PostGIS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--46756b50:197604d4a91:-7ffe</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">public</entry>
+    <entry key="database">geopamplona</entry>
+    <entry key="port">5432</entry>
+    <entry key="passwd">crypt1:056b33zqdWamNNlaKYDT7w==</entry>
+    <entry key="host">postgis</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="namespace">http://geopamplona.es</entry>
+    <entry key="user">admin</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2025-06-11 21:27:46.286 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>

@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><i class="bi bi-house-door-fill"></i> Cesium demo</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alternar navegación">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="bi bi-house-fill"></i> Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#" onclick="puntoPamplona()"><i class="bi bi-house-fill"></i> Volar a Pamplona</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-briefcase-fill"></i> Servicios
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+            <li><a class="dropdown-item" href="indexCatastro.html">Catastro</a></li>
+            <li><a class="dropdown-item" href="indexIdena.html">Idena</a></li>
+            <li><a class="dropdown-item" href="indexWheather.html">Wheather</a></li>
+            <li><a class="dropdown-item" href="indexCamera.html">Camera</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-briefcase-fill"></i> Limpiar
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="nav-link active" href="#" onclick="limpiarEntidades()"><i class="bi bi-house-fill"></i> Limpiar entidades</a></li>
+            <li><a class="nav-link active" href="#" onclick="limpiarPrimitivas()"><i class="bi bi-house-fill"></i> Limpiar primitivas</a></li>
+            <li><a class="nav-link active" href="#" onclick="cargarRutaVehicle()"><i class="bi bi-house-fill"></i> Cargar Ruta Vehicle </a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div id="login">
+      <input type="text" id="username" placeholder="Usuario" class="form control" value="peter">
+      <input type="password" id="password" placeholder="Contraseña" class="form control" value="11111">
+      <button class="btn btn-primary" id="loginButton" onclick="login()">Login</button>
+      <button class="btn btn-secondary" id="registerButton" onclick="register()">Registrar
+    </div>
+  </div>
+  
+</nav>
+<script type="module">
+    import './js/login.js';
+    
+</script>

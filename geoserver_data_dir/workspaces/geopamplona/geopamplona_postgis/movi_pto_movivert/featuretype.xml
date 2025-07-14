@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b8a</id>
+  <name>movi_pto_movivert</name>
+  <nativeName>movi_pto_movivert</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Movi Pto Movivert</title>
+  <abstract>Capa Movi Pto Movivert del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>movi_pto_movivert</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.675538182258606</minx>
+    <maxx>-1.614956855773926</maxx>
+    <miny>42.80173873901367</miny>
+    <maxy>42.819847106933594</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.675538182258606</minx>
+    <maxx>-1.614956855773926</maxx>
+    <miny>42.80173873901367</miny>
+    <maxy>42.819847106933594</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

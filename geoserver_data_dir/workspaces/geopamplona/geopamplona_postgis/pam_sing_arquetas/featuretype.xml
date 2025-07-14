@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b86</id>
+  <name>pam_sing_arquetas</name>
+  <nativeName>pam_sing_arquetas</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Pam Sing Arquetas</title>
+  <abstract>Capa Pam Sing Arquetas del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>pam_sing_arquetas</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.6929851770401</minx>
+    <maxx>-1.607692241668701</maxx>
+    <miny>42.789215087890625</miny>
+    <maxy>42.843597412109375</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.6929851770401</minx>
+    <maxx>-1.607692241668701</maxx>
+    <miny>42.789215087890625</miny>
+    <maxy>42.843597412109375</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

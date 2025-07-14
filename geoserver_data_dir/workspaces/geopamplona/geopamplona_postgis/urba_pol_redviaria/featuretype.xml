@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b14</id>
+  <name>urba_pol_redviaria</name>
+  <nativeName>urba_pol_redviaria</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Urba Pol Redviaria</title>
+  <abstract>Capa Urba Pol Redviaria del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>urba_pol_redviaria</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.691293478012085</minx>
+    <maxx>-1.587980270385742</maxx>
+    <miny>42.7809944152832</miny>
+    <maxy>42.83567810058594</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.691293478012085</minx>
+    <maxx>-1.587980270385742</maxx>
+    <miny>42.7809944152832</miny>
+    <maxy>42.83567810058594</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

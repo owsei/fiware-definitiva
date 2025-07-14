@@ -1,0 +1,16 @@
+<layer>
+  <name>jard_pto_llavepaso</name>
+  <id>LayerInfoImpl-207aa827:19760aa3874:-7bb3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7bb4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-06-11 21:28:52.694 UTC</dateCreated>
+</layer>

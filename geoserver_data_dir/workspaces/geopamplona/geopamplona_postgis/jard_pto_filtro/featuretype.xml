@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7bb8</id>
+  <name>jard_pto_filtro</name>
+  <nativeName>jard_pto_filtro</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Jard Pto Filtro</title>
+  <abstract>Capa Jard Pto Filtro del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>jard_pto_filtro</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.676454186439514</minx>
+    <maxx>-1.613454103469849</maxx>
+    <miny>42.79800033569336</miny>
+    <maxy>42.82697296142578</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.676454186439514</minx>
+    <maxx>-1.613454103469849</maxx>
+    <miny>42.79800033569336</miny>
+    <maxy>42.82697296142578</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

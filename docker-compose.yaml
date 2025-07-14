@@ -42,13 +42,13 @@ services:
       CYGNUS_POSTGRESQL_SERVICE_PORT: 5055
       
       # PostgreSQL config
-      CYGNUS_POSTGRESQL_HOST: postgis
-      CYGNUS_POSTGRESQL_PORT: 5434
-      CYGNUS_POSTGRESQL_DATABASE: orion
-      CYGNUS_POSTGRESQL_USER: postgres
-      CYGNUS_POSTGRESQL_PASS: 1234
+      CYGNUS_POSTGRESQL_HOST: timescaledb
+      CYGNUS_POSTGRESQL_PORT: 5432
+      CYGNUS_POSTGRESQL_DATABASE: pamplona
+      CYGNUS_POSTGRESQL_USER: admin
+      CYGNUS_POSTGRESQL_PASS: admin
       # CYGNUS_POSTGRESQL_ENABLE_CACHE: true
-      CYGNUS_POSTGRESQL_SERVICE: orion
+      CYGNUS_POSTGRESQL_SERVICE: timescaledb
       CYGNUS_POSTGRESQL_DATA_MODEL: dm-by-entity-type-database #dm-by-entity-type-database
       CYGNUS_POSTGRESQL_ATTR_PERSISTENCE: column
       
@@ -184,8 +184,11 @@ services:
       - fiware
  
   timescaledb:
-    image: timescale/timescaledb:latest-pg17
-    container_name: timescaledb
+    hostname: timescale
+    container_name: timescale
+    build:
+      context: .
+      dockerfile: dockerfile_postgis
     environment:
       POSTGRES_DB: orion
       POSTGRES_USER: admin
@@ -193,8 +196,64 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./postgis:/var/lib/postgresql/data
+      - ./postgis16:/var/lib/postgresql/data
+    # restart: unless-stopped
+    networks:
+      - fiware
+
+  # postgis:
+  #   hostname: postgis
+  #   container_name: postgis
+  #   build:
+  #     context: .
+  #     dockerfile: dockerfile_postgis
+  #   ports:
+  #     - "5432:5432"
+  #   environment:
+  #     POSTGRES_USER: admin
+  #     POSTGRES_PASSWORD: admin
+  #     POSTGRES_DB: geopamplona
+  #   volumes:
+  #     - ./postgis:/var/lib/postgresql/data
+  #   networks:
+  #     - fiware
+
+  geoserver:
+    image: docker.osgeo.org/geoserver:2.28.x
+    container_name: geoserver
+    hostname: geoserver
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./geoserver_data_dir:/opt/geoserver_data
+      - ./tomcat/web.xml:/usr/local/tomcat/conf/web.xml
     restart: unless-stopped
+    networks:
+      - fiware
+
+  fastapi:
+    hostname: fastapi
+    container_name: fastapi
+    build:
+      context: .
+      dockerfile: dockerfile_fastapi
+    # depends_on:
+    #   - postgis
+    ports:
+      - "8000:8000"
+    networks:
+      - fiware
+  
+  nginx_server:
+    hostname: nginx
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: dockerfile_nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - fastapi
     networks:
       - fiware
 

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b10</id>
+  <name>urba_pol_unidadbas</name>
+  <nativeName>urba_pol_unidadbas</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Urba Pol Unidadbas</title>
+  <abstract>Capa Urba Pol Unidadbas del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>urba_pol_unidadbas</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.694727182388306</minx>
+    <maxx>-1.605613827705383</maxx>
+    <miny>42.790252685546875</miny>
+    <maxy>42.83760452270508</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.694727182388306</minx>
+    <maxx>-1.605613827705383</maxx>
+    <miny>42.790252685546875</miny>
+    <maxy>42.83760452270508</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7bc0</id>
+  <name>jard_pto_contador</name>
+  <nativeName>jard_pto_contador</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Jard Pto Contador</title>
+  <abstract>Capa Jard Pto Contador del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>jard_pto_contador</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.685584187507629</minx>
+    <maxx>-1.609780073165894</maxx>
+    <miny>42.79609298706055</miny>
+    <maxy>42.8358154296875</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.685584187507629</minx>
+    <maxx>-1.609780073165894</maxx>
+    <miny>42.79609298706055</miny>
+    <maxy>42.8358154296875</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

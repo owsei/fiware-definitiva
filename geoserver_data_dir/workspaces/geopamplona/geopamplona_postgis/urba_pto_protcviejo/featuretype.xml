@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b02</id>
+  <name>urba_pto_protcviejo</name>
+  <nativeName>urba_pto_protcviejo</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Urba Pto Protcviejo</title>
+  <abstract>Capa Urba Pto Protcviejo del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>urba_pto_protcviejo</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.649021983146668</minx>
+    <maxx>-1.640689849853516</maxx>
+    <miny>42.815757751464844</miny>
+    <maxy>42.8206787109375</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.649021983146668</minx>
+    <maxx>-1.640689849853516</maxx>
+    <miny>42.815757751464844</miny>
+    <maxy>42.8206787109375</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

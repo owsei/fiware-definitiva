@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c08</id>
+  <name>cult_pto_civivox</name>
+  <nativeName>cult_pto_civivox</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Cult Pto Civivox</title>
+  <abstract>Capa Cult Pto Civivox del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>cult_pto_civivox</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.668257474899292</minx>
+    <maxx>-1.617671251296997</maxx>
+    <miny>42.804229736328125</miny>
+    <maxy>42.82530975341797</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.668257474899292</minx>
+    <maxx>-1.617671251296997</maxx>
+    <miny>42.804229736328125</miny>
+    <maxy>42.82530975341797</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

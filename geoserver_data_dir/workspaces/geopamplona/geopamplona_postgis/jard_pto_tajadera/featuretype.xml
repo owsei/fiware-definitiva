@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7bb2</id>
+  <name>jard_pto_tajadera</name>
+  <nativeName>jard_pto_tajadera</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Jard Pto Tajadera</title>
+  <abstract>Capa Jard Pto Tajadera del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>jard_pto_tajadera</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.663307547569275</minx>
+    <maxx>-1.663307428359985</maxx>
+    <miny>42.80847930908203</miny>
+    <maxy>42.8084831237793</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.663307547569275</minx>
+    <maxx>-1.663307428359985</maxx>
+    <miny>42.80847930908203</miny>
+    <maxy>42.8084831237793</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

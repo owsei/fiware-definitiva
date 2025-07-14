@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b3a</id>
+  <name>urba_lin_usoporsnu</name>
+  <nativeName>urba_lin_usoporsnu</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Urba Lin Usoporsnu</title>
+  <abstract>Capa Urba Lin Usoporsnu del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>urba_lin_usoporsnu</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.687268018722534</minx>
+    <maxx>-1.626768231391907</maxx>
+    <miny>42.7928581237793</miny>
+    <maxy>42.822044372558594</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.687268018722534</minx>
+    <maxx>-1.626768231391907</maxx>
+    <miny>42.7928581237793</miny>
+    <maxy>42.822044372558594</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

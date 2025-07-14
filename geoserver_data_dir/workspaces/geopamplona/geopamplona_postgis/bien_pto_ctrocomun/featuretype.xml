@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c4c</id>
+  <name>bien_pto_ctrocomun</name>
+  <nativeName>bien_pto_ctrocomun</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Bien Pto Ctrocomun</title>
+  <abstract>Capa Bien Pto Ctrocomun del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>bien_pto_ctrocomun</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.677214622497559</minx>
+    <maxx>-1.613662123680115</maxx>
+    <miny>42.79957962036133</miny>
+    <maxy>42.82892990112305</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.677214622497559</minx>
+    <maxx>-1.613662123680115</maxx>
+    <miny>42.79957962036133</miny>
+    <maxy>42.82892990112305</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b6e</id>
+  <name>segu_pto_senvertsop</name>
+  <nativeName>segu_pto_senvertsop</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Segu Pto Senvertsop</title>
+  <abstract>Capa Segu Pto Senvertsop del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>segu_pto_senvertsop</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.693512558937073</minx>
+    <maxx>-1.608325362205505</maxx>
+    <miny>42.790122985839844</miny>
+    <maxy>42.83773422241211</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.693512558937073</minx>
+    <maxx>-1.608325362205505</maxx>
+    <miny>42.790122985839844</miny>
+    <maxy>42.83773422241211</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

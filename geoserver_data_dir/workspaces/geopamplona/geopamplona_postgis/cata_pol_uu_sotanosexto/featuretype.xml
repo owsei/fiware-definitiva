@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c10</id>
+  <name>cata_pol_uu_sotanosexto</name>
+  <nativeName>cata_pol_uu_sotanosexto</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Cata Pol Uu Sotanosexto</title>
+  <abstract>Capa Cata Pol Uu Sotanosexto del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>cata_pol_uu_sotanosexto</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.645993232727051</minx>
+    <maxx>-1.644765734672546</maxx>
+    <miny>42.81328582763672</miny>
+    <maxy>42.81402587890625</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.645993232727051</minx>
+    <maxx>-1.644765734672546</maxx>
+    <miny>42.81328582763672</miny>
+    <maxy>42.81402587890625</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

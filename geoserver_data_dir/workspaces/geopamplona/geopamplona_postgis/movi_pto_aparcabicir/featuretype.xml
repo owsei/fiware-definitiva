@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b92</id>
+  <name>movi_pto_aparcabicir</name>
+  <nativeName>movi_pto_aparcabicir</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Movi Pto Aparcabicir</title>
+  <abstract>Capa Movi Pto Aparcabicir del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>movi_pto_aparcabicir</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.67526364326477</minx>
+    <maxx>-1.632596731185913</maxx>
+    <miny>42.80553436279297</miny>
+    <maxy>42.831878662109375</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.67526364326477</minx>
+    <maxx>-1.632596731185913</maxx>
+    <miny>42.80553436279297</miny>
+    <maxy>42.831878662109375</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

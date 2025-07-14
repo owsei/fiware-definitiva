@@ -1,0 +1,16 @@
+<layer>
+  <name>cata_pol_uu_sotano</name>
+  <id>LayerInfoImpl-207aa827:19760aa3874:-7c19</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c1a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-06-11 21:28:23.369 UTC</dateCreated>
+</layer>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b52</id>
+  <name>urba_lin_alineaciones</name>
+  <nativeName>urba_lin_alineaciones</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Urba Lin Alineaciones</title>
+  <abstract>Capa Urba Lin Alineaciones del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>urba_lin_alineaciones</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.694684028625488</minx>
+    <maxx>-1.605807065963745</maxx>
+    <miny>42.790252685546875</miny>
+    <maxy>42.837589263916016</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.694684028625488</minx>
+    <maxx>-1.605807065963745</maxx>
+    <miny>42.790252685546875</miny>
+    <maxy>42.837589263916016</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

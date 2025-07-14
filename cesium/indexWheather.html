@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cesium UTM to WGS84</title>
+
+  <!--LIBRERIA TRASFORMACION GEOLOCALIZACION-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.0/proj4.js"></script>
+
+  <!--CESIUM-->
+  <script src="https://unpkg.com/cesium@latest/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.129/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <script src="js/createElementsGEO.js"></script>
+  <link rel="stylesheet" href="styles/styles.css"></script>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <div id="navbar-placeholder">
+    <div id="loading-spinner" class="spinner-overlay">
+      <div class="spinner"></div>
+    </div>
+  </div>
+  <div id="cesiumContainer">
+    
+    
+  </div>
+  <div class="floating-layer">
+    
+      <h3>Información OpenWeather </h3>
+      <div id="arbol">
+        <ul class="tree">
+          <li>
+              <input type="checkbox" id="toggle3DTiles" />
+              Mostrar 3D Tiles de Google
+              <hr>
+          </li>
+          <li>
+              <span onclick="toggleSubtree(this)">📂 Capas PostGIS</span>
+              <ul id="capasGeopamplona" class="nested">
+              </ul>
+          </li>
+          <li>
+            <span onclick="toggleSubtree(this)">📂 Edificios</span>
+              <ul id="capasEdificios" class="nested">
+                <li onclick="insertCathedralBuilding()">Insertar Catedral</li>
+                <li onclick="insertBuilding()">Insertar Edificio</li>
+                <li onclick="insertBuildingTracasaGayarre()">Insertar Edificio Tracasa</li>
+              </ul>
+          </li>
+          <li>
+              <span>Temperaturas</span>
+              <ul id="temperaturas" >
+              </ul>
+          </li>
+        </ul>
+        <br>
+        <hr>
+      </div>
+  </div>
+  <div id="spinnerOverlay" class="spinner-overlay">
+    <div class="spinner"></div>
+  </div>
+  <!-- <button class="btn btn-primary" onclick="toggleView()">Cambiar Vista (2D/3D)</button> -->
+
+  <script type="module">
+    fetch('js/navbar.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('navbar-placeholder').innerHTML = html);
+
+    getTemperatureData();
+
+
+    import './js/createElementsGEO.js';
+    
+    //Definicion de variables globales
+    window.googleTileset = null;
+    window.google=false;
+    const pinBuilder = new Cesium.PinBuilder();
+    window.layerFeaturesInMap=[];
+
+    // window.is3D = true;
+    document.getElementById("cesiumContainer").style.display = "block";
+
+    // Inicializar Cesium
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3YWQ3ZWY4ZS03NzBjLTRjNzktYTYyNy0zMTRkYmE1NmE1NDciLCJpZCI6MjgwODk3LCJpYXQiOjE3NDEwNzIzMzl9.rpQ6pVt0APCbZ_zhTJkhquCVXwmMo3unuk4ZafCea-k'; // Usa tu token de Cesium o deja en blanco si es local
+
+    // window.viewer = new Cesium.Viewer("cesiumContainer", {
+    //   terrain: new Cesium.Terrain(Cesium.CesiumTerrainProvider.fromUrl("https://idena.navarra.es/cesiumTerrain/2017/epsg4326/5m/"))
+    // });
+     
+
+    //Terreno de cesium
+    window.viewer = new Cesium.Viewer("cesiumContainer", {
+        terrain: Cesium.Terrain.fromWorldTerrain({
+          geocoder: true,
+          homeButton: true,
+          sceneModePicker: true,
+          navigationHelpButton: true,
+          navigationInstructionsInitiallyVisible: true,
+        }),
+    });
+
+    // Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhMWQwMWFkMC02Yjc0LTQyMTYtOTcxMi02MThjYTcwYmJmZDkiLCJpZCI6Mjc5Mjc1LCJpYXQiOjE3NDA1NjExNzl9.UycmR1I_vZfZ6QK7XxiMreCGsPqMZjSfUX1QsFiqPb8";
+    // // const viewer = new Cesium.Viewer("cesiumContainer");
+
+    // try {
+    //   const tileset = await Cesium.Cesium3DTileset.fromIonAssetId(3258995);
+    //   viewer.scene.primitives.add(tileset);
+    //   await viewer.zoomTo(tileset);
+
+    //   // Apply the default style if it exists
+    //   const extras = tileset.asset.extras;
+    //   if (
+    //     Cesium.defined(extras) &&
+    //     Cesium.defined(extras.ion) &&
+    //     Cesium.defined(extras.ion.defaultStyle)
+    //   ) {
+    //     tileset.style = new Cesium.Cesium3DTileStyle(extras.ion.defaultStyle);
+    //   }
+    // } catch (error) {
+    //   console.log(error);
+    // }
+
+    
+    // Añadir OpenStreetMap como capa base
+    // const imageryProvider = new Cesium.OpenStreetMapImageryProvider({
+    //     url : 'https://a.tile.openstreetmap.org/',
+    //     maximumLevel: 19,
+    //     credit: '© OpenStreetMap contributors'
+    // });
+
+    window.baseLayer=[];
+    //borrado de capas base
+    // viewer.imageryLayers.removeAll(); 
+    // Añadir OpenStreetMap como capa base
+    // let noche = Cesium.ImageryLayer.fromProviderAsync(Cesium.IonImageryProvider.fromAssetId(3812));
+    // baseLayer.push(noche);
+
+    // const osm = new Cesium.OpenStreetMapImageryProvider({
+    //     url : 'https://tile.openstreetmap.org/'
+    // })
+    // baseLayer.push(osm); // Añade la capa OSM a la lista de capas base
+
+
+    //hace la capa visible
+    // viewer.imageryLayers.addImageryProvider(osm); // Añade la capa OSM
+
+   
+
+    // viewer.camera.flyTo({
+    //   destination: Cesium.Cartesian3.fromDegrees(-1.661712,42.821916,20000),
+    //   orientation: {
+    //       heading: Cesium.Math.toRadians(10.0),  
+    //       pitch: Cesium.Math.toRadians(-40.0),
+    //       roll: 0.0
+    //   }
+    // });
+
+    // const resource = await Cesium.IonResource.fromAssetId(3439017);
+    // const entity = viewer.entities.add({
+    //   model: { uri: resource },
+    // });
+
+
+    viewer.scene.globe.enableLighting = true;
+    window.viewer.scene.skyAtmosphere.show = false;
+
+    // const geocoder = viewer.geocoder.viewModel;
+    // geocoder.searchText = "Pamplona,Navarra";
+    // geocoder.search(); // Esto hace que el globo vuele a la ciudad
+
+    // Enable rendering the sky
+
+
+    document.getElementById('toggle3DTiles').addEventListener('change', function () {
+      if (this.checked) {
+        mostrar3DTilesGoogle(); // Muestra el tileset
+      } else if (window.googleTileset) {
+        googleTileset.show = false; // Oculta el tileset
+        window.viewer.scene.primitives.remove(googleTileset)
+      }
+    });
+
+    
+    
+    // viewer.dataSources.add(Cesium.CzmlDataSource.load("datos/ruta.czml"));
+    // viewer.trackedEntity = dataSource.entities.getById("path"); 
+
+
+    </script>
+
+</body>
+</html>

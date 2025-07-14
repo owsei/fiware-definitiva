@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Enter para ejecutar función</title>
+</head>
+<body>
+
+  <input type="text" id="miInput" placeholder="Escribe y pulsa Enter">
+
+  <script>
+    const input = document.getElementById('miInput');
+
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        alert('¡Enter detectado!');
+      }
+    });
+  </script>
+
+</body>
+</html>

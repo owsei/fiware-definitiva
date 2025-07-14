@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c58</id>
+  <name>ambi_pto_calidadaire</name>
+  <nativeName>ambi_pto_calidadaire</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Ambi Pto Calidadaire</title>
+  <abstract>Capa Ambi Pto Calidadaire del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>ambi_pto_calidadaire</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.652505159378052</minx>
+    <maxx>-1.644055008888245</maxx>
+    <miny>42.80617141723633</miny>
+    <maxy>42.82596206665039</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.652505159378052</minx>
+    <maxx>-1.644055008888245</maxx>
+    <miny>42.80617141723633</miny>
+    <maxy>42.82596206665039</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

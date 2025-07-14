@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c90</id>
+  <name>alum_pto_acometida</name>
+  <nativeName>alum_pto_acometida</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Alum Pto Acometida</title>
+  <abstract>Capa Alum Pto Acometida del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>alum_pto_acometida</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.687528729438782</minx>
+    <maxx>-1.609975218772888</maxx>
+    <miny>42.79059600830078</miny>
+    <maxy>42.84299087524414</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.687528729438782</minx>
+    <maxx>-1.609975218772888</maxx>
+    <miny>42.79059600830078</miny>
+    <maxy>42.84299087524414</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

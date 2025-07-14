@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7bfe</id>
+  <name>gral_pol_aparcdisua</name>
+  <nativeName>gral_pol_aparcdisua</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Gral Pol Aparcdisua</title>
+  <abstract>Capa Gral Pol Aparcdisua del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gral_pol_aparcdisua</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.67716908454895</minx>
+    <maxx>-1.626503348350525</maxx>
+    <miny>42.799644470214844</miny>
+    <maxy>42.8357048034668</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.67716908454895</minx>
+    <maxx>-1.626503348350525</maxx>
+    <miny>42.799644470214844</miny>
+    <maxy>42.8357048034668</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

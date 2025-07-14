@@ -1,0 +1,17 @@
+<layer>
+  <name>alum_pto_centromando</name>
+  <id>LayerInfoImpl-207aa827:19760aa3874:-7c8b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7ff2</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c8c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-06-11 21:27:50.457 UTC</dateCreated>
+  <dateModified>2025-06-12 12:53:41.956 UTC</dateModified>
+</layer>

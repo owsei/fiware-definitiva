@@ -1,0 +1,16 @@
+<layer>
+  <name>gral_pto_correos</name>
+  <id>LayerInfoImpl-207aa827:19760aa3874:-7bf5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7bf6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-06-11 21:28:33.85 UTC</dateCreated>
+</layer>

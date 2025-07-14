@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c42</id>
+  <name>cata_pol_uu_cuarta</name>
+  <nativeName>cata_pol_uu_cuarta</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Cata Pol Uu Cuarta</title>
+  <abstract>Capa Cata Pol Uu Cuarta del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>cata_pol_uu_cuarta</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.683709859848022</minx>
+    <maxx>-1.60792863368988</maxx>
+    <miny>42.795040130615234</miny>
+    <maxy>42.835628509521484</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.683709859848022</minx>
+    <maxx>-1.60792863368988</maxx>
+    <miny>42.795040130615234</miny>
+    <maxy>42.835628509521484</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

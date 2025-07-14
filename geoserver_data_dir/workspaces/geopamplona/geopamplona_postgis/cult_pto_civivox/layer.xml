@@ -1,0 +1,16 @@
+<layer>
+  <name>cult_pto_civivox</name>
+  <id>LayerInfoImpl-207aa827:19760aa3874:-7c07</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c08</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-06-11 21:28:28.4 UTC</dateCreated>
+</layer>

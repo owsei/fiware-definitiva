@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b7c</id>
+  <name>segu_pol_esregsector</name>
+  <nativeName>segu_pol_esregsector</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Segu Pol Esregsector</title>
+  <abstract>Capa Segu Pol Esregsector del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>segu_pol_esregsector</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.68324601650238</minx>
+    <maxx>-1.621491312980652</maxx>
+    <miny>42.799407958984375</miny>
+    <maxy>42.83573913574219</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.68324601650238</minx>
+    <maxx>-1.621491312980652</maxx>
+    <miny>42.799407958984375</miny>
+    <maxy>42.83573913574219</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

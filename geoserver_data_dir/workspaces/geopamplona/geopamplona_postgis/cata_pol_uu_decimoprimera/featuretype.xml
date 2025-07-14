@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c38</id>
+  <name>cata_pol_uu_decimoprimera</name>
+  <nativeName>cata_pol_uu_decimoprimera</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Cata Pol Uu Decimoprimera</title>
+  <abstract>Capa Cata Pol Uu Decimoprimera del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>cata_pol_uu_decimoprimera</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.67090654373169</minx>
+    <maxx>-1.617228746414185</maxx>
+    <miny>42.796749114990234</miny>
+    <maxy>42.82168197631836</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.67090654373169</minx>
+    <maxx>-1.617228746414185</maxx>
+    <miny>42.796749114990234</miny>
+    <maxy>42.82168197631836</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

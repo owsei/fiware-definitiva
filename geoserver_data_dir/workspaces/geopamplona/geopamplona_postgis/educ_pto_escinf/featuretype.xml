@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c00</id>
+  <name>educ_pto_escinf</name>
+  <nativeName>educ_pto_escinf</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Educ Pto Escinf</title>
+  <abstract>Capa Educ Pto Escinf del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>educ_pto_escinf</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.668999195098877</minx>
+    <maxx>-1.609990119934082</maxx>
+    <miny>42.801082611083984</miny>
+    <maxy>42.83022689819336</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.668999195098877</minx>
+    <maxx>-1.609990119934082</maxx>
+    <miny>42.801082611083984</miny>
+    <maxy>42.83022689819336</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

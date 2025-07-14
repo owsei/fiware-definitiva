@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7ba0</id>
+  <name>mobi_pto_fuentepub</name>
+  <nativeName>mobi_pto_fuentepub</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Mobi Pto Fuentepub</title>
+  <abstract>Capa Mobi Pto Fuentepub del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mobi_pto_fuentepub</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.685739994049072</minx>
+    <maxx>-1.609898805618286</maxx>
+    <miny>42.797210693359375</miny>
+    <maxy>42.83528518676758</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.685739994049072</minx>
+    <maxx>-1.609898805618286</maxx>
+    <miny>42.797210693359375</miny>
+    <maxy>42.83528518676758</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7bee</id>
+  <name>gral_pto_salidas</name>
+  <nativeName>gral_pto_salidas</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Gral Pto Salidas</title>
+  <abstract>Capa Gral Pto Salidas del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gral_pto_salidas</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.700739622116089</minx>
+    <maxx>-1.60872495174408</maxx>
+    <miny>42.792476654052734</miny>
+    <maxy>42.8365592956543</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.700739622116089</minx>
+    <maxx>-1.60872495174408</maxx>
+    <miny>42.792476654052734</miny>
+    <maxy>42.8365592956543</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7be8</id>
+  <name>jard_lin_seto</name>
+  <nativeName>jard_lin_seto</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Jard Lin Seto</title>
+  <abstract>Capa Jard Lin Seto del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>jard_lin_seto</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.687599539756775</minx>
+    <maxx>-1.611334085464478</maxx>
+    <miny>42.79171371459961</miny>
+    <maxy>42.83395004272461</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.687599539756775</minx>
+    <maxx>-1.611334085464478</maxx>
+    <miny>42.79171371459961</miny>
+    <maxy>42.83395004272461</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

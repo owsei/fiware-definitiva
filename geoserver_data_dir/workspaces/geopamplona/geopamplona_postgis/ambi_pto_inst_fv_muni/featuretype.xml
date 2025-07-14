@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c52</id>
+  <name>ambi_pto_inst_fv_muni</name>
+  <nativeName>ambi_pto_inst_fv_muni</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Ambi Pto Inst Fv Muni</title>
+  <abstract>Capa Ambi Pto Inst Fv Muni del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>ambi_pto_inst_fv_muni</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.67734158039093</minx>
+    <maxx>-1.614355683326721</maxx>
+    <miny>42.79945755004883</miny>
+    <maxy>42.83570861816406</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.67734158039093</minx>
+    <maxx>-1.614355683326721</maxx>
+    <miny>42.79945755004883</miny>
+    <maxy>42.83570861816406</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

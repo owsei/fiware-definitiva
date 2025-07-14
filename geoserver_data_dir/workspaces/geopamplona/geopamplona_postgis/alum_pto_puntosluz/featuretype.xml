@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7c88</id>
+  <name>alum_pto_puntosluz</name>
+  <nativeName>alum_pto_puntosluz</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--46756b50:197604d4a91:-7ffd</id>
+  </namespace>
+  <title>Alum Pto Puntosluz</title>
+  <abstract>Capa Alum Pto Puntosluz del sistema GIS de Pamplona</abstract>
+  <keywords>
+    <string>features</string>
+    <string>alum_pto_puntosluz</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.691768646240234</minx>
+    <maxx>-1.604926109313965</maxx>
+    <miny>42.784698486328125</miny>
+    <maxy>42.8441047668457</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.691768646240234</minx>
+    <maxx>-1.604926109313965</maxx>
+    <miny>42.784698486328125</miny>
+    <maxy>42.8441047668457</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-207aa827:19760aa3874:-7c91</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

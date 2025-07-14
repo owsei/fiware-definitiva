@@ -1,0 +1,16 @@
+<layer>
+  <name>segu_pto_semaforo</name>
+  <id>LayerInfoImpl-207aa827:19760aa3874:-7b6f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-207aa827:19760aa3874:-7b70</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-06-11 21:29:14.440 UTC</dateCreated>
+</layer>
