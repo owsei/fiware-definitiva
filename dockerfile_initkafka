@@ -1,0 +1,4 @@
+FROM bitnami/kafka:latest
+COPY init/create-topic.sh /create-topic.sh
+# RUN chmod +x /create-topic.sh
+CMD ["bash", "/create-topic.sh"]

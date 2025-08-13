@@ -1,0 +1,18 @@
+FROM timescale/timescaledb-ha:pg16-ts2.17-all
+
+
+# Variables de entorno
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=admin
+ENV POSTGRES_DB=geopamplona
+
+
+# Copia de archivos de configuración
+COPY ./postgis16/postgresql.conf /etc/postgresql/postgresql.conf
+COPY ./postgis16/pg_hba.conf /etc/postgresql/pg_hba.conf
+
+# Puerto expuesto
+EXPOSE 5432
+
+# Comando de arranque
+CMD ["postgres", "-c", "config_file=/etc/postgresql/postgresql.conf"]

@@ -1,0 +1,42 @@
+
+# Kafka HTTP API Example
+# This example demonstrates how to create a topic and send messages using the Kafka HTTP API.
+# Ensure you have the Kafka REST Proxy running and accessible at http://localhost:8082
+# Replace <cluster-id> with your actual Kafka cluster ID.
+# Create a topic using the Kafka HTTP API
+# Make sure to replace <cluster-id> with your actual Kafka cluster ID.
+# Example: Create a topic named "mi-topic" with 1 partition and replication factor of 1
+
+###
+### Clusters de kafka
+curl -X GET http://localhost:8082/v3/clusters
+
+###
+### Listar los topics
+curl -X GET http://localhost:8082/v3/clusters/8k09QA6mR2Oqu4oXfdMLmg/topics
+
+### crear un topic
+# Example: Create a topic named "usuarios" with 1 partition and replication factor of
+###
+curl -X POST -H "Content-Type: application/vnd.kafka.v2+json" \
+     --data '{"name": "ventas", "partitions": 1, "replicationFactor": 1}' \
+     http://localhost:8082/v3/clusters/8k09QA6mR2Oqu4oXfdMLmg/topics
+
+###
+
+### Enviar un mensaje a un topic
+curl -X POST -H "Content-Type: application/vnd.kafka.json.v2+json" \
+     --data '{"records":[{"value":{"nombre":"Peter","edad":50,"correo":"peter@gmail.com"}}]}' \
+     http://localhost:8082/topics/usuarios
+
+###
+curl -X POST -H "Content-Type: application/vnd.kafka.json.v2+json" \
+     --data '{"records":[{"value":{"mensaje":"Hola desde REST"}}]}' \
+     http://localhost:8082/topics/ventas
+
+
+### Consumir mensajes de un topic
+curl -X GET http://localhost:8082/v3/clusters/8k09QA6mR2Oqu4oXfdMLmg/topics/ventas/partitions/0/records?offset=0&count=10
+
+###
+curl -X GET http://localhost:8082/topics/usuarios/partitions/0/messages

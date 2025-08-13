@@ -206607,3 +206607,1638 @@ java.lang.IllegalStateException: BeanFactory not initialized or already closed -
 14 Jul 09:44:28 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
 14 Jul 09:44:29 CONFIG [geoserver.security] - Start reloading user/groups for service named default
 14 Jul 09:44:29 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+16 Jul 12:53:02 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+16 Jul 12:53:05 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+16 Jul 12:53:06 CONFIG [geoserver.config] - Loading catalog /opt/geoserver_data
+16 Jul 12:53:06 CONFIG [config.datadir] - Catalog and configuration loader uses 12 threads out of 12 available cores.
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style burg
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style capitals
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style cite_lakes
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style dem
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style generic
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style giant_polygon
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style grass
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style green
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style line
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style poi
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style point
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style polygon
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style poly_landmarks
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style pophatch
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style population
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style rain
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style raster
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style restricted
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style simple_roads
+16 Jul 12:53:06 CONFIG [config.datadir] - Loaded style simple_streams
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded style tiger_roads
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded workspace geopamplona
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded namespace geopamplona
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded style point_burg
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded data store geopamplona_postgis
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_protcviejo, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type turi_lin_rutamuralla, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_dotgeneral, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type jard_pto_boyallenado, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_lin_infralumbr, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type bien_pto_esctaller, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pto_protcviejo, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabiciv, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type gral_pol_aparcdisua, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_reemplazo_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadbas, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_dependencia_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabiciv
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer jard_pto_boyallenado
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_unidadbas
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_dependencia_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_dotgeneral
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pto_protcviejo
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_protcviejo
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer gral_pol_aparcdisua
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer bien_pto_esctaller
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_reemplazo_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer turi_lin_rutamuralla
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_lin_infralumbr
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type jard_pto_cableantena, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type movi_pto_bicielecbase, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer jard_pto_cableantena
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadint, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_unidadint
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_estsgeneral, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_protedif, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer movi_pto_bicielecbase
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_segundo_grado_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_distribucion_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pto_protjardin, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_segundo_grado_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type bien_pto_servesp, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_protedif
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type gral_pol_zonawifi, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_estsgeneral
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type turi_lin_rutasfermin, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_lin_infrcoltub, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_distribucion_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer bien_pto_servesp
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pto_protjardin
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer turi_lin_rutasfermin
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer gral_pol_zonawifi
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_lin_infrcoltub
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_usoglobal, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_usoglobal
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type movi_pto_movivert, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer movi_pto_movivert
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type jard_pto_compuertav, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer jard_pto_compuertav
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_sin_estudios_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_protjardin, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_sin_estudios_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_protjardin
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_edadmedia_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_estusos, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type bien_pto_unidbarrio, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type gral_pto_aparcmotos, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_lin_infrelectr, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_txt_infragua, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer gral_pto_aparcmotos
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_estusos
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type turi_lin_rutaverde, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_lin_infrelectr
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_edadmedia_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer bien_pto_unidbarrio
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer turi_lin_rutaverde
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_txt_infragua
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_usoporsnu, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_usoporsnu
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type jard_pto_contador, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type paci_pto_recursos, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_redciclista, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer jard_pto_contador
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_redciclista
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_sobreenvejecimiento_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer paci_pto_recursos
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_sobreenvejecimiento_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type gral_pto_aseos, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_infrcolcue, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_envejecimiento_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_lin_infrgas, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer gral_pto_aseos
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_lin_infrgas
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_baja, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_infrcolcue
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_envejecimiento_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_densidad_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type turi_pto_busturi, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer cata_pol_uu_baja
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer turi_pto_busturi
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_redpeatonal, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_densidad_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_redpeatonal
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type jard_pto_aspersor, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer jard_pto_aspersor
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_infrtelef, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_sundbarg_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_infrtelef
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_sundbarg_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type movi_pto_accesorestr, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer movi_pto_accesorestr
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type depo_pol_insdeporte, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_africa_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer depo_pol_insdeporte
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_lin_infrtelef, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_africa_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_lin_infrtelef
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_infrcoldep, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_cuarta, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_infrcoldep
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer cata_pol_uu_cuarta
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type turi_pto_hitoturismo, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_redviaria, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_usoporsu, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_redviaria
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_usoporsu
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type jard_pto_bocariego, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer turi_pto_hitoturismo
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer jard_pto_bocariego
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_ordcomercial, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_ordcomercial
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_tamanio_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabicir, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_tamanio_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabicir
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type educ_pto_escartmus, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer educ_pto_escartmus
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_lin_protjardin, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decima, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_america_b, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_lin_protjardin
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decima
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_america_b
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pto_infragua, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_infrelectr, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pto_infragua
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_infrelectr
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type jard_pto_bombaachiqe, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadact, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer jard_pto_bombaachiqe
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer urba_pol_unidadact
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type turi_pto_infoturismo, enabled
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded layer turi_pto_infoturismo
+16 Jul 12:53:07 CONFIG [config.datadir] - Loaded feature type urba_pol_protarqueol, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_tendencia_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabicis, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_pol_protarqueol
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabicis
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_tendencia_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type educ_pto_escinf, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer educ_pto_escinf
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_lin_redciclista, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_lin_redciclista
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimocuarta, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_europa_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_europa_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimocuarta
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_pto_infralumbr, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_pto_infralumbr
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_pol_infrgas, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_pol_infrgas
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_filtro, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_pto_polmungrua, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_filtro
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_pto_polmungrua
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type turi_pto_rutacamsant, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type mobi_pto_calistenia, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_tercer_grado_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer mobi_pto_calistenia
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer turi_pto_rutacamsant
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type gral_pto_recargaelec, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_tercer_grado_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer gral_pto_recargaelec
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_lin_esregzonas, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_lin_esregzonas
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type turi_pto_rutaverde, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer turi_pto_rutaverde
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type pam_sing_arquetas, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer pam_sing_arquetas
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pol_tapiz, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pto_inst_fv_muni, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pol_tapiz
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pto_inst_fv_muni
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_lin_usoporsnu, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_lin_usoporsnu
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_hidrante, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_hidrante
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_pto_aparcminus, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_pto_semaforo, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_pto_aparcminus
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_pto_semaforo
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_infancia_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type mobi_pto_fuentepub, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_lin_reservas, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type gral_pto_salidas, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_infancia_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer mobi_pto_fuentepub
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_lin_reservas
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type turi_pto_senal, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer gral_pto_salidas
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer turi_pto_senal
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type pam_sing_centros_de_mando, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer pam_sing_centros_de_mando
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pto_suds, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pol_terrizo, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pto_suds
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pol_terrizo
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_pol_areareparto, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_pol_areareparto
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_llavepaso, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_llavepaso
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_pto_cinemometro, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_pto_senvertsop, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_pto_cinemometro
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_pto_senvertsop
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_pol_esregsector, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type gral_pto_transp, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_juventud_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type movi_lin_redciclable, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_pol_esregsector
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer gral_pto_transp
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer movi_lin_redciclable
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type proy_pol_edificios, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_juventud_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_lin_alineaciones, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer proy_pol_edificios
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_lin_alineaciones
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pol_zonacult, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_pol_barrios, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type bien_pol_unidbarrio, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pol_zonacult
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_pol_barrios
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer bien_pol_unidbarrio
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_tajadera, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_tajadera
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_pto_esregexp, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type turi_lin_rutacamsant, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_pto_esregexp
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer turi_lin_rutacamsant
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type movi_pol_limvel, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer movi_pol_limvel
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type segu_pol_senhorizont, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer segu_pol_senhorizont
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type limp_pto_rejillas, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type iden_pol_municipio, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_lin_infragua, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer limp_pto_rejillas
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_maternidad_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer iden_pol_municipio
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_maternidad_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_lin_infragua
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_pol_clasifica, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_alcachofa, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_pol_clasifica
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_alcachofa
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type bien_pto_ctrocomun, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer bien_pto_ctrocomun
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_desague, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_desague
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_ventosa, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_ventosa
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_resto_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_resto_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type movi_pol_zonaaccesorestr, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer movi_pol_zonaaccesorestr
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_217, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_217
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_primer_grado_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type gral_pto_correos, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type mobi_pol_cirgimnasia, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer gral_pto_correos
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_primer_grado_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer mobi_pol_cirgimnasia
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type turi_pto_rutamuralla, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer turi_pto_rutamuralla
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_lin_redpeatonal, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_lin_redpeatonal
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_arbol, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_difusor, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_arbol
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_difusor
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pto_calidadaire, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pto_calidadaire
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_total_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type limp_pto_fuentes, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_total_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer limp_pto_fuentes
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type movi_pol_zonaspeatonales, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer movi_pol_zonaspeatonales
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_218, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_218
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type gral_pto_parkings, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type turi_pto_rutapatrim, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer gral_pto_parkings
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pol_macizflor, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer turi_pto_rutapatrim
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pol_macizflor
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type mobi_pol_juegosinf, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer mobi_pol_juegosinf
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_lin_redviaria, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_elecvalvula, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_lin_redviaria
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_elecvalvula
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_arbusto, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_arbusto
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type vdem_pol_hombre_mujer_b, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pto_climasensores, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type limp_pto_papeleras, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer vdem_pol_hombre_mujer_b
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pto_climasensores
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer limp_pto_papeleras
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type movi_pol_zonasverdes, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer movi_pol_zonasverdes
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_220, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_220
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type turi_pto_rutasfermin, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer turi_pto_rutasfermin
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type mobi_pol_zecvallado, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type gral_pto_puntowifi, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pol_masaarbol, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer gral_pto_puntowifi
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer mobi_pol_zecvallado
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pol_masaarbol
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type urba_lin_usoglobal, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanosegundo, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer urba_lin_usoglobal
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanosegundo
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pto_arquetadesa, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pto_arquetadesa
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_lin_seto, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pto_compost, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_lin_seto
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimotercera, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pto_compost
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimotercera
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_11, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_7, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_11
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_7
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoquinta, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoquinta
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type alum_pto_centrotransf, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_octava, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer alum_pto_centrotransf
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pol_masaarbus, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_octava
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_202, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pol_masaarbus
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanosexto, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_202
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanosexto
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotano, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotano
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_lin_tuberia, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_lin_tuberia
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_entreplanta, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_inundacion, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_entreplanta
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_inundacion
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_209, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_141, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_209
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_141
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimosegunda, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimosegunda
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type alum_pto_puntosluz, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_primera, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer alum_pto_puntosluz
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_primera
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_203, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pol_pradera, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_203
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pol_pradera
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanotercero, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanocuarto, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanotercero
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanocuarto
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type jard_pol_cesped, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer jard_pol_cesped
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_novena, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_restauracion, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_novena
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_restauracion
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_211, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_189, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_211
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_189
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoseptima, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoseptima
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type alum_pto_soporte, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_quinta, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer alum_pto_soporte
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_quinta
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_208_1, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_208_1
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_semisotano, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_semisotano
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanoprimero, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_tercera, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanoprimero
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_tercera
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type alum_pto_acometida, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer alum_pto_acometida
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_th_energia_edificios, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_1, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_th_energia_edificios
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_1
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_214, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_214
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimonovena, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimonovena
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimosexta, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimosexta
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_huertosurb, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_segunda, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_huertosurb
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_segunda
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_208_2, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_septima, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanoquinto, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_208_2
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_septima
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cult_pto_bibliotecas, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanoquinto
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cult_pto_bibliotecas
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type alum_pto_arquetas, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer alum_pto_arquetas
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_2, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_th_energia_edifpub, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_2
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_th_energia_edifpub
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimooctava, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimooctava
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sexta, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cult_pto_civivox, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sexta
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cult_pto_civivox
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type alum_pto_centromando, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer alum_pto_centromando
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_3, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_3
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoprimera, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoprimera
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded feature type cult_pto_ociocultura, enabled
+16 Jul 12:53:08 CONFIG [config.datadir] - Loaded layer cult_pto_ociocultura
+16 Jul 12:53:09 INFO   [geoserver.config] - Read Catalog in 3.048 s: workspaces: 1, namespaces: 1, styles: 22, stores: 1, resources: 225, layers: 225, layer groups: 0.
+16 Jul 12:53:09 CONFIG [config.datadir] - Loading GeoServer config...
+16 Jul 12:53:09 CONFIG [config.datadir] - Loaded service 'wcs', enabled
+16 Jul 12:53:09 CONFIG [config.datadir] - Loaded service 'wfs', enabled
+16 Jul 12:53:09 CONFIG [config.datadir] - Loaded service 'wms', enabled
+16 Jul 12:53:09 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+16 Jul 12:53:09 CONFIG [config.datadir] - Catalog and configuration loader uses 12 threads out of 12 available cores.
+16 Jul 12:53:10 CONFIG [config.datadir] - Loading workspace services and settings...
+16 Jul 12:53:10 CONFIG [config.datadir] - Loaded service 'WCSInfoImpl-207aa827:19760aa3874:-7ffd', enabled
+16 Jul 12:53:10 CONFIG [config.datadir] - Loaded service 'WFSInfoImpl-207aa827:19760aa3874:-7ffb', enabled
+16 Jul 12:53:10 CONFIG [config.datadir] - Loaded service 'WMSInfoImpl-207aa827:19760aa3874:-7ffc', enabled
+16 Jul 12:53:10 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl-207aa827:19760aa3874:-7ffa', enabled
+16 Jul 12:53:10 CONFIG [config.datadir] - GeoServer config (settings and services) loaded in 268.2 ms
+16 Jul 12:53:10 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver_data/gwc'.
+16 Jul 12:53:10 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+16 Jul 12:53:10 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+16 Jul 12:53:10 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+16 Jul 12:53:10 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+16 Jul 12:53:10 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+16 Jul 12:53:10 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+16 Jul 12:53:10 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+16 Jul 12:53:11 CONFIG [gwc.layer] - Loaded 225 tile layers in 926.3 ms
+16 Jul 12:53:11 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+16 Jul 12:53:11 CONFIG [storage.DefaultStorageFinder] - Found system environment variable GEOSERVER_DATA_DIR set to /opt/geoserver_data/, using it as the default prefix.
+16 Jul 12:53:11 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+16 Jul 12:53:14 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver_data/gwc'.
+16 Jul 12:53:14 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver_data/gwc'.
+16 Jul 12:53:14 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+16 Jul 12:53:14 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+16 Jul 12:53:15 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+16 Jul 12:53:15 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+16 Jul 12:53:15 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+16 Jul 12:53:15 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+16 Jul 12:53:15 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+16 Jul 12:53:17 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+16 Jul 12:53:17 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+16 Jul 12:53:17 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+16 Jul 12:53:17 CONFIG [diskquota.DiskQuotaMonitor] - 225 layers attached to global quota 500.0 MB
+16 Jul 12:53:17 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+16 Jul 12:53:18 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+16 Jul 12:53:18 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+17 Jul 06:05:02 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+17 Jul 06:05:02 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+17 Jul 06:05:02 CONFIG [gwc.layer] - Loaded 225 tile layers in 678.1 ms
+17 Jul 06:05:02 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+17 Jul 06:05:02 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+17 Jul 06:05:03 CONFIG [gwc.layer] - Loaded 225 tile layers in 611.9 ms
+17 Jul 06:05:03 WARN   [support.DisposableBeanAdapter] - Custom destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@176bd76[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@ee76ff9] rejected from java.util.concurrent.ThreadPoolExecutor@2e77c990[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+17 Jul 06:05:03 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+12 Aug 11:17:56 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+12 Aug 11:17:58 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+12 Aug 11:17:59 CONFIG [geoserver.config] - Loading catalog /opt/geoserver_data
+12 Aug 11:17:59 CONFIG [config.datadir] - Catalog and configuration loader uses 12 threads out of 12 available cores.
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style burg
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style capitals
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style cite_lakes
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style dem
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style generic
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style giant_polygon
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style grass
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style green
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style line
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style poi
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style point
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style polygon
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style poly_landmarks
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style pophatch
+12 Aug 11:17:59 CONFIG [config.datadir] - Loaded style population
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded style rain
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded style raster
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded style restricted
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded style simple_roads
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded style simple_streams
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded style tiger_roads
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded workspace geopamplona
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded namespace geopamplona
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded style point_burg
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded data store geopamplona_postgis
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_reemplazo_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_infralumbr, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadbas, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type mobi_pto_calistenia, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_dotgeneral, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type gral_pol_aparcdisua, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type bien_pto_esctaller, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_dependencia_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabiciv, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_lin_rutamuralla, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_boyallenado, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_protcviejo, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_lin_rutamuralla
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer bien_pto_esctaller
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer gral_pol_aparcdisua
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_unidadbas
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_boyallenado
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_dotgeneral
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer mobi_pto_calistenia
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_protcviejo
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabiciv
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_infralumbr
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_reemplazo_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_dependencia_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_estsgeneral, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_estsgeneral
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pto_bicielecbase, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type gral_pol_zonawifi, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_protedif, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadint, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_segundo_grado_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pto_bicielecbase
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type bien_pto_servesp, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_lin_rutasfermin, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer gral_pol_zonawifi
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_lin_rutasfermin
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer bien_pto_servesp
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_distribucion_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_cableantena, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_unidadint
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_infrcoltub, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_protedif
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_segundo_grado_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type mobi_pto_fuentepub, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_distribucion_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_cableantena
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_infrcoltub
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer mobi_pto_fuentepub
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_estusos, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pto_movivert, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_estusos
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pto_movivert
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type gral_pto_aparcmotos, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type bien_pto_unidbarrio, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer gral_pto_aparcmotos
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_lin_rutaverde, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer bien_pto_unidbarrio
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_lin_rutaverde
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_protjardin, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_sin_estudios_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_edadmedia_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_protjardin
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_sin_estudios_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_compuertav, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_edadmedia_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_infrelectr, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_lin_redciclable, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_compuertav
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_lin_redciclable
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_infrelectr
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_usoglobal, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_usoglobal
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type paci_pto_recursos, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_infrcolcue, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer paci_pto_recursos
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_infrcolcue
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type gral_pto_aseos, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_baja, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_pto_busturi, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer gral_pto_aseos
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer cata_pol_uu_baja
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_pto_busturi
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_redciclista, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_envejecimiento_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_sobreenvejecimiento_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_redciclista
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_envejecimiento_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_sobreenvejecimiento_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_infrgas, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pol_limvel, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_contador, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_infrgas
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pol_limvel
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_contador
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_usoporsnu, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_usoporsnu
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pto_accesorestr, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pto_accesorestr
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type depo_pol_insdeporte, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer depo_pol_insdeporte
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_cuarta, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_pto_hitoturismo, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer cata_pol_uu_cuarta
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_pto_hitoturismo
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_infrtelef, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_africa_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_infrtelef
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_africa_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_sundbarg_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_infrcoldep, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_sundbarg_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_infrcoldep
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_infrtelef, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pol_zonaaccesorestr, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_aspersor, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_aspersor
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_infrtelef
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pol_zonaaccesorestr
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_redpeatonal, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_redpeatonal
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabicir, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type educ_pto_escartmus, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabicir
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer educ_pto_escartmus
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_pto_infoturismo, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_pto_infoturismo
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decima, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_ordcomercial, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decima
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_america_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_infrelectr, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_ordcomercial
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_infrelectr
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_tamanio_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_america_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_tamanio_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_bocariego, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_bocariego
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_protjardin, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pol_zonaspeatonales, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_redviaria, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_protjardin
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pol_zonaspeatonales
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_redviaria
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type educ_pto_escinf, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabicis, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer educ_pto_escinf
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabicis
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_pto_rutacamsant, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_pto_rutacamsant
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimocuarta, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimocuarta
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_europa_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_infrgas, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_protarqueol, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_europa_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_protarqueol
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_infrgas
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_tendencia_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_bombaachiqe, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_tendencia_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type movi_pol_zonasverdes, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer movi_pol_zonasverdes
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_bombaachiqe
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_redciclista, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadact, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_redciclista
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type segu_lin_esregzonas, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer segu_lin_esregzonas
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type gral_pto_recargaelec, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_unidadact
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer gral_pto_recargaelec
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type segu_pto_polmungrua, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer segu_pto_polmungrua
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type ambi_pto_inst_fv_muni, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer ambi_pto_inst_fv_muni
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_usoporsu, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_usoporsu
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_usoporsnu, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_usoporsnu
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pto_protcviejo, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pto_protcviejo
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type limp_pto_rejillas, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_tercer_grado_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer limp_pto_rejillas
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_filtro, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_tercer_grado_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_filtro
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_pto_rutaverde, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_pto_rutaverde
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type segu_lin_reservas, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer segu_lin_reservas
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_infancia_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_infancia_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type gral_pto_salidas, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type segu_pto_semaforo, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer gral_pto_salidas
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer segu_pto_semaforo
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type ambi_pto_suds, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pto_infragua, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer ambi_pto_suds
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pto_infragua
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pto_protjardin, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_areareparto, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pto_protjardin
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_areareparto
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type mobi_pol_cirgimnasia, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_hidrante, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer mobi_pol_cirgimnasia
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pol_tapiz, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_hidrante
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pol_tapiz
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type segu_pol_esregsector, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_pto_senal, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_juventud_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer segu_pol_esregsector
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_pto_senal
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_juventud_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type gral_pto_transp, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type segu_pto_senvertsop, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer gral_pto_transp
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer segu_pto_senvertsop
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type bien_pol_unidbarrio, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_txt_infragua, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer bien_pol_unidbarrio
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pto_infralumbr, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_txt_infragua
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pto_infralumbr
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_barrios, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_barrios
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_llavepaso, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type mobi_pol_juegosinf, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_llavepaso
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer mobi_pol_juegosinf
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pol_terrizo, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type segu_pol_senhorizont, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pol_terrizo
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer segu_pol_senhorizont
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_alineaciones, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_alineaciones
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_maternidad_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type iden_pol_municipio, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type turi_lin_rutacamsant, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_maternidad_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer turi_lin_rutacamsant
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type pam_sing_arquetas, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer pam_sing_arquetas
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer iden_pol_municipio
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_densidad_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_densidad_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type bien_pto_ctrocomun, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer bien_pto_ctrocomun
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_pol_clasifica, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_pol_clasifica
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pto_tajadera, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type mobi_pol_zecvallado, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pto_tajadera
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer mobi_pol_zecvallado
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type segu_pto_aparcminus, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer segu_pto_aparcminus
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type jard_pol_zonacult, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_infragua, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer jard_pol_zonacult
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_infragua
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_primer_grado_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_primer_grado_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_resto_b, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_resto_b
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type urba_lin_redpeatonal, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer urba_lin_redpeatonal
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type gral_pto_correos, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type ambi_pto_calidadaire, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer gral_pto_correos
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_217, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer ambi_pto_calidadaire
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded feature type pam_sing_centros_de_mando, enabled
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_217
+12 Aug 11:18:00 CONFIG [config.datadir] - Loaded layer pam_sing_centros_de_mando
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pto_desague, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pto_ventosa, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type segu_pto_cinemometro, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pto_desague
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer segu_pto_cinemometro
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pto_ventosa
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pto_alcachofa, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pto_alcachofa
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type turi_pto_rutamuralla, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pol_macizflor, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer turi_pto_rutamuralla
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_total_b, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pol_macizflor
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_total_b
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type urba_lin_redviaria, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer urba_lin_redviaria
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type gral_pto_parkings, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer gral_pto_parkings
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type proy_pol_edificios, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_218, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pto_climasensores, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pto_climasensores
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_218
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer proy_pol_edificios
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pto_difusor, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type segu_pto_esregexp, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer segu_pto_esregexp
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pto_difusor
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type limp_pto_fuentes, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pto_arbol, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer limp_pto_fuentes
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pto_arbol
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pol_masaarbol, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type turi_pto_rutapatrim, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type vdem_pol_hombre_mujer_b, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pol_masaarbol
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type urba_lin_usoglobal, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer vdem_pol_hombre_mujer_b
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer turi_pto_rutapatrim
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer urba_lin_usoglobal
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type gral_pto_puntowifi, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer gral_pto_puntowifi
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_lin_seto, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pto_compost, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_lin_seto
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pto_compost
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_220, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_220
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pto_elecvalvula, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type limp_pto_papeleras, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pto_elecvalvula
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimotercera, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pto_arbusto, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer limp_pto_papeleras
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pto_arbusto
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimotercera
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanosegundo, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pol_masaarbus, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanosegundo
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pol_masaarbus
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type turi_pto_rutasfermin, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_11, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer turi_pto_rutasfermin
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_11
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotano, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotano
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_lin_tuberia, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_semisotano, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_lin_tuberia
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_semisotano
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_7, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_7
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoquinta, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoquinta
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_entreplanta, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pto_arquetadesa, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_entreplanta
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_octava, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pol_pradera, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pto_arquetadesa
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanosexto, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_octava
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pol_pradera
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanosexto
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_tercera, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanocuarto, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_141, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_tercera
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_141
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanocuarto
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type jard_pol_cesped, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_septima, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer jard_pol_cesped
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_septima
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_209, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_209
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimosegunda, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimosegunda
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_novena, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_novena
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_primera, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimonovena, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_primera
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanotercero, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_inundacion, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimonovena
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanotercero
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanoprimero, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cult_pto_bibliotecas, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanoprimero
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_inundacion
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cult_pto_bibliotecas
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_189, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sexta, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_189
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_1, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sexta
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_1
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_211, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_211
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoseptima, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoseptima
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type alum_pto_centrotransf, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_quinta, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer alum_pto_centrotransf
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_quinta
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimooctava, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type alum_pto_acometida, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimooctava
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer alum_pto_acometida
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cult_pto_civivox, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_restauracion, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanoquinto, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cult_pto_civivox
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_restauracion
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanoquinto
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_202, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_202
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_214, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_2, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_2
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_214
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimosexta, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimosexta
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type alum_pto_puntosluz, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_segunda, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer alum_pto_puntosluz
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_segunda
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cult_pto_ociocultura, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type alum_pto_arquetas, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cult_pto_ociocultura
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoprimera, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer alum_pto_arquetas
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoprimera
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_th_energia_edificios, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_th_energia_edificios
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_203, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_203
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_3, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_3
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type alum_pto_soporte, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer alum_pto_soporte
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type alum_pto_centromando, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer alum_pto_centromando
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_th_energia_edifpub, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_th_energia_edifpub
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_208_1, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_208_1
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_huertosurb, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_huertosurb
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_208_2, enabled
+12 Aug 11:18:01 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_208_2
+12 Aug 11:18:02 INFO   [geoserver.config] - Read Catalog in 2.398 s: workspaces: 1, namespaces: 1, styles: 22, stores: 1, resources: 225, layers: 225, layer groups: 0.
+12 Aug 11:18:02 CONFIG [config.datadir] - Loading GeoServer config...
+12 Aug 11:18:02 CONFIG [config.datadir] - Loaded service 'wcs', enabled
+12 Aug 11:18:02 CONFIG [config.datadir] - Loaded service 'wfs', enabled
+12 Aug 11:18:02 CONFIG [config.datadir] - Loaded service 'wms', enabled
+12 Aug 11:18:02 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+12 Aug 11:18:02 CONFIG [config.datadir] - Catalog and configuration loader uses 12 threads out of 12 available cores.
+12 Aug 11:18:02 CONFIG [config.datadir] - Loading workspace services and settings...
+12 Aug 11:18:02 CONFIG [config.datadir] - Loaded service 'WCSInfoImpl-207aa827:19760aa3874:-7ffd', enabled
+12 Aug 11:18:02 CONFIG [config.datadir] - Loaded service 'WFSInfoImpl-207aa827:19760aa3874:-7ffb', enabled
+12 Aug 11:18:02 CONFIG [config.datadir] - Loaded service 'WMSInfoImpl-207aa827:19760aa3874:-7ffc', enabled
+12 Aug 11:18:02 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl-207aa827:19760aa3874:-7ffa', enabled
+12 Aug 11:18:02 CONFIG [config.datadir] - GeoServer config (settings and services) loaded in 256.3 ms
+12 Aug 11:18:02 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver_data/gwc'.
+12 Aug 11:18:02 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+12 Aug 11:18:02 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+12 Aug 11:18:02 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+12 Aug 11:18:02 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+12 Aug 11:18:02 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+12 Aug 11:18:02 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+12 Aug 11:18:02 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+12 Aug 11:18:03 CONFIG [gwc.layer] - Loaded 225 tile layers in 730.0 ms
+12 Aug 11:18:03 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+12 Aug 11:18:03 CONFIG [storage.DefaultStorageFinder] - Found system environment variable GEOSERVER_DATA_DIR set to /opt/geoserver_data/, using it as the default prefix.
+12 Aug 11:18:03 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+12 Aug 11:18:07 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver_data/gwc'.
+12 Aug 11:18:07 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver_data/gwc'.
+12 Aug 11:18:07 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+12 Aug 11:18:07 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+12 Aug 11:18:08 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+12 Aug 11:18:08 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+12 Aug 11:18:08 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+12 Aug 11:18:09 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+12 Aug 11:18:09 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+12 Aug 11:18:10 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+12 Aug 11:18:10 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+12 Aug 11:18:10 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+12 Aug 11:18:10 CONFIG [diskquota.DiskQuotaMonitor] - 225 layers attached to global quota 500.0 MB
+12 Aug 11:18:10 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+12 Aug 11:18:12 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+12 Aug 11:18:12 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+12 Aug 11:18:44 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+12 Aug 11:18:44 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+12 Aug 11:18:46 CONFIG [gwc.layer] - Loaded 225 tile layers in 1.338 s
+12 Aug 11:18:46 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+12 Aug 11:18:46 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+12 Aug 11:18:47 CONFIG [gwc.layer] - Loaded 225 tile layers in 1.074 s
+12 Aug 11:18:47 WARN   [support.DisposableBeanAdapter] - Custom destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@d57fb91[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@4e8746da] rejected from java.util.concurrent.ThreadPoolExecutor@241811d2[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12 Aug 11:18:47 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+12 Aug 11:18:47 WARN   [geoserver.platform] - bean lookup error
+java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:169)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1305)
+	at org.geoserver.platform.GeoServerExtensions.extensionNames(GeoServerExtensions.java:224)
+	at org.geoserver.platform.GeoServerExtensions.extensions(GeoServerExtensions.java:130)
+	at org.geoserver.platform.GeoServerExtensions.extensions(GeoServerExtensions.java:118)
+	at org.geoserver.platform.GeoServerExtensions.bean(GeoServerExtensions.java:342)
+	at org.geoserver.platform.GeoServerExtensions.bean(GeoServerExtensions.java:328)
+	at org.vfny.geoserver.crs.GeoserverWKTOperationFactory.getDefinitionsURL(GeoserverWKTOperationFactory.java:44)
+	at org.geotools.referencing.factory.epsg.CoordinateOperationFactoryUsingWKT.createBackingStore(CoordinateOperationFactoryUsingWKT.java:159)
+	at org.geotools.referencing.factory.DeferredAuthorityFactory.getBackingStore(DeferredAuthorityFactory.java:115)
+	at org.geotools.referencing.factory.BufferedAuthorityFactory.isAvailable(BufferedAuthorityFactory.java:238)
+	at org.geotools.referencing.factory.DeferredAuthorityFactory.isAvailable(DeferredAuthorityFactory.java:96)
+	at org.geotools.util.factory.FactoryRegistry.isAvailable(FactoryRegistry.java:706)
+	at org.geotools.util.factory.FactoryRegistry.isAcceptable(FactoryRegistry.java:544)
+	at org.geotools.util.factory.FactoryRegistry.lambda$getFactories$0(FactoryRegistry.java:252)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at org.geotools.util.LazySet.exists(LazySet.java:110)
+	at org.geotools.util.LazySet$Iter.hasNext(LazySet.java:132)
+	at org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories(GeoserverInitStartupListener.java:503)
+	at org.geoserver.GeoserverInitStartupListener.contextDestroyed(GeoserverInitStartupListener.java:307)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4105)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4727)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1219)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1208)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:814)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1219)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1208)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:814)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:468)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:919)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:814)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:960)
+12 Aug 11:20:01 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+12 Aug 11:20:08 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+12 Aug 11:20:12 CONFIG [geoserver.config] - Loading catalog /opt/geoserver_data
+12 Aug 11:20:12 CONFIG [config.datadir] - Catalog and configuration loader uses 12 threads out of 12 available cores.
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style burg
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style capitals
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style cite_lakes
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style dem
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style generic
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style giant_polygon
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style grass
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style green
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style line
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style poi
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style point
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style polygon
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style poly_landmarks
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style pophatch
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style population
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style rain
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style raster
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style restricted
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style simple_roads
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style simple_streams
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style tiger_roads
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded workspace geopamplona
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded namespace geopamplona
+12 Aug 11:20:12 CONFIG [config.datadir] - Loaded style point_burg
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded data store geopamplona_postgis
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanosegundo, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pto_recargaelec, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type vdem_pol_dependencia_b, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type depo_pol_insdeporte, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pol_aparcdisua, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_lin_rutamuralla, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_infralumbr, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabiciv, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_217, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type bien_pto_esctaller, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type jard_pto_boyallenado, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer jard_pto_boyallenado
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pto_recargaelec
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabiciv
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanosegundo
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer bien_pto_esctaller
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_lin_rutamuralla
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_infralumbr
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer vdem_pol_dependencia_b
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pol_aparcdisua
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_217
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer depo_pol_insdeporte
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_lin_rutasfermin, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pol_zonawifi, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_218, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pto_salidas, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_218
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type jard_pto_cableantena, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_lin_rutasfermin
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pol_zonawifi
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type movi_pto_bicielecbase, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanosexto, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type educ_pto_escartmus, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_infrcoltub, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pto_salidas
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_infrcoltub
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanosexto
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type vdem_pol_distribucion_b, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer vdem_pol_distribucion_b
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer movi_pto_bicielecbase
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type bien_pto_servesp, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer jard_pto_cableantena
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer bien_pto_servesp
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer educ_pto_escartmus
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_lin_rutaverde, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pto_aparcmotos, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pto_transp, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_220, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pto_transp
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanotercero, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanotercero
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_infrelectr, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_lin_rutaverde
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_220
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pto_aparcmotos
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_infrelectr
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type movi_pto_movivert, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type bien_pto_unidbarrio, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type vdem_pol_edadmedia_b, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type educ_pto_escinf, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer vdem_pol_edadmedia_b
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer movi_pto_movivert
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer bien_pto_unidbarrio
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type jard_pto_compuertav, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer educ_pto_escinf
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer jard_pto_compuertav
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type iden_pol_municipio, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer iden_pol_municipio
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_tercera, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cata_pol_uu_tercera
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_pto_busturi, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pto_aseos, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_pto_busturi
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pto_aseos
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type vdem_pol_envejecimiento_b, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer vdem_pol_envejecimiento_b
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_7, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_infrgas, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type jard_pto_contador, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer jard_pto_contador
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_pto_rutaverde, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_pto_rutaverde
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_infrgas
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_7
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type paci_pto_recursos, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_baja, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer paci_pto_recursos
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cata_pol_uu_baja
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pto_correos, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cult_pto_bibliotecas, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_africa_b, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pto_correos
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_africa_b
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cult_pto_bibliotecas
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type segu_pto_polmungrua, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer segu_pto_polmungrua
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_pto_hitoturismo, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_pto_hitoturismo
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_infrtelef, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_infrtelef
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type jard_pto_aspersor, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type movi_pto_accesorestr, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_209, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer jard_pto_aspersor
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_209
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer movi_pto_accesorestr
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_pto_senal, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_cuarta, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_pto_senal
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cata_pol_uu_cuarta
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pto_parkings, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pto_parkings
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cult_pto_civivox, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cult_pto_civivox
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_america_b, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_america_b
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type segu_pto_semaforo, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_protjardin, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer segu_pto_semaforo
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_protjardin
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_pto_infoturismo, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type jard_pto_bocariego, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_pto_infoturismo
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer jard_pto_bocariego
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabicir, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_alineaciones, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_211, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_alineaciones
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_211
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabicir
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decima, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decima
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type gral_pto_puntowifi, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer gral_pto_puntowifi
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type cult_pto_ociocultura, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_europa_b, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_europa_b
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer cult_pto_ociocultura
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_redciclista, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type segu_pto_senvertsop, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_redciclista
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer segu_pto_senvertsop
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type turi_pto_rutacamsant, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer turi_pto_rutacamsant
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type movi_pto_aparcabicis, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer movi_pto_aparcabicis
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type urba_lin_infragua, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_214, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer urba_lin_infragua
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_214
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type segu_pto_aparcminus, enabled
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded feature type jard_pto_bombaachiqe, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_bombaachiqe
+12 Aug 11:20:13 CONFIG [config.datadir] - Loaded layer segu_pto_aparcminus
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimocuarta, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimocuarta
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pto_protcviejo, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pto_protcviejo
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type mobi_pto_calistenia, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type turi_lin_rutacamsant, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer mobi_pto_calistenia
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer turi_lin_rutacamsant
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type limp_pto_rejillas, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type segu_lin_esregzonas, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer limp_pto_rejillas
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer segu_lin_esregzonas
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotano, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotano
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_inundacion, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_inundacion
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type turi_pto_rutamuralla, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pto_filtro, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_filtro
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer turi_pto_rutamuralla
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type segu_pto_cinemometro, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer segu_pto_cinemometro
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pto_inst_fv_muni, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pto_inst_fv_muni
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pto_protjardin, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type mobi_pto_fuentepub, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pto_protjardin
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer mobi_pto_fuentepub
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pto_ventosa, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_ventosa
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanocuarto, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type segu_lin_reservas, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanocuarto
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer segu_lin_reservas
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type mobi_pol_cirgimnasia, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer mobi_pol_cirgimnasia
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type turi_pto_rutapatrim, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type segu_pto_esregexp, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer turi_pto_rutapatrim
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pto_hidrante, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer segu_pto_esregexp
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_restauracion, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pto_suds, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_hidrante
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_restauracion
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pto_suds
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type movi_lin_redciclable, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer movi_lin_redciclable
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_txt_infragua, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type limp_pto_fuentes, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type segu_pol_esregsector, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer limp_pto_fuentes
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_txt_infragua
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer segu_pol_esregsector
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanoprimero, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanoprimero
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type turi_pto_rutasfermin, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type mobi_pol_juegosinf, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer turi_pto_rutasfermin
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_th_energia_edificios, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer mobi_pol_juegosinf
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_th_energia_edificios
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type bien_pol_unidbarrio, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_11, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pto_llavepaso, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_11
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_llavepaso
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type movi_pol_limvel, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer bien_pol_unidbarrio
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer movi_pol_limvel
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_densidad_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_densidad_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sotanoquinto, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type limp_pto_papeleras, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type segu_pol_senhorizont, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_protcviejo, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer segu_pol_senhorizont
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer limp_pto_papeleras
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sotanoquinto
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type mobi_pol_zecvallado, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_th_energia_edifpub, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_protcviejo
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer mobi_pol_zecvallado
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_141, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_th_energia_edifpub
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_141
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pto_tajadera, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type movi_pol_zonaaccesorestr, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_tajadera
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type bien_pto_ctrocomun, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer movi_pol_zonaaccesorestr
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer bien_pto_ctrocomun
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_usoporsu, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_usoporsu
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimotercera, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type pam_sing_arquetas, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimotercera
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer pam_sing_arquetas
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_semisotano, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_semisotano
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_reemplazo_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_protedif, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_reemplazo_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_189, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pto_desague, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type movi_pol_zonaspeatonales, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_1, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_protedif
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer movi_pol_zonaspeatonales
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_desague
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_189
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_1
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pto_calidadaire, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pto_infragua, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pto_calidadaire
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pto_infragua
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type pam_sing_centros_de_mando, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_septima, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_septima
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer pam_sing_centros_de_mando
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_segundo_grado_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_entreplanta, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_segundo_grado_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_entreplanta
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_protjardin, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type movi_pol_zonasverdes, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_2, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_protjardin
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer movi_pol_zonasverdes
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pto_difusor, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_2
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_202, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_difusor
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pto_climasensores, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pto_infralumbr, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pto_infralumbr
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_202
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pto_climasensores
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_sexta, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_novena, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_sexta
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_novena
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_sin_estudios_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type proy_pol_edificios, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_sin_estudios_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer proy_pol_edificios
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_redciclista, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_redciclista
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type alum_pto_centrotransf, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer alum_pto_centrotransf
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_203, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_infancia_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_203
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_infancia_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_73_3, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pto_elecvalvula, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_octava, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pto_elecvalvula
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pto_compost, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_73_3
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_octava
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_sundbarg_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_sundbarg_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pto_compost
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoquinta, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_infrtelef, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoquinta
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_infrtelef
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_208_1, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_sobreenvejecimiento_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_208_1
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_juventud_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_sobreenvejecimiento_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_juventud_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type alum_pto_puntosluz, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_tamanio_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_tamanio_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer alum_pto_puntosluz
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_resto_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_resto_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_ind_208_2, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_ind_208_2
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_dotgeneral, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_dotgeneral
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_ordcomercial, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_ordcomercial
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pol_macizflor, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pol_macizflor
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_maternidad_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimosegunda, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_maternidad_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimosegunda
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_primera, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_primera
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type alum_pto_soporte, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer alum_pto_soporte
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_lin_usoporsnu, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_lin_usoporsnu
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_tendencia_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pol_tapiz, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_ext_total_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_tendencia_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pol_tapiz
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_ext_total_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_protarqueol, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pol_masaarbol, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_quinta, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_quinta
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoseptima, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_primer_grado_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pol_masaarbol
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_protarqueol
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoseptima
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_estsgeneral, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_estsgeneral
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_primer_grado_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_areareparto, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_areareparto
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type ambi_pol_huertosurb, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pol_terrizo, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer ambi_pol_huertosurb
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pol_terrizo
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_segunda, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_hombre_mujer_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_segunda
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadbas, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_hombre_mujer_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_unidadbas
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_pol_masaarbus, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type vdem_pol_tercer_grado_b, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_pol_masaarbus
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimosexta, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer vdem_pol_tercer_grado_b
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_estusos, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type jard_lin_seto, enabled
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimosexta
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer urba_pol_estusos
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded layer jard_lin_seto
+12 Aug 11:20:14 CONFIG [config.datadir] - Loaded feature type urba_pol_barrios, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_barrios
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type alum_pto_acometida, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer alum_pto_acometida
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type jard_pol_zonacult, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer jard_pol_zonacult
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_infrcolcue, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadint, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_infrcolcue
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type jard_pol_pradera, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimonovena, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_unidadint
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimonovena
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer jard_pol_pradera
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_lin_redpeatonal, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_lin_redpeatonal
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type jard_pto_alcachofa, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer jard_pto_alcachofa
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type jard_lin_tuberia, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer jard_lin_tuberia
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_redpeatonal, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type alum_pto_arquetas, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_clasifica, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_redpeatonal
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer alum_pto_arquetas
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_clasifica
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_usoglobal, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimooctava, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_usoglobal
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimooctava
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_infrcoldep, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_infrcoldep
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_lin_redviaria, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_lin_redviaria
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type jard_pol_cesped, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer jard_pol_cesped
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type alum_pto_centromando, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type jard_pto_arbol, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_redviaria, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer alum_pto_centromando
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_redviaria
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer jard_pto_arbol
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_usoporsnu, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_usoporsnu
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_infrelectr, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_lin_usoglobal, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_infrelectr
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_lin_usoglobal
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type cata_pol_uu_decimoprimera, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer cata_pol_uu_decimoprimera
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_unidadact, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type jard_pto_arbusto, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer jard_pto_arbusto
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_unidadact
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type urba_pol_infrgas, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer urba_pol_infrgas
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded feature type jard_pto_arquetadesa, enabled
+12 Aug 11:20:15 CONFIG [config.datadir] - Loaded layer jard_pto_arquetadesa
+12 Aug 11:20:16 INFO   [geoserver.config] - Read Catalog in 3.966 s: workspaces: 1, namespaces: 1, styles: 22, stores: 1, resources: 225, layers: 225, layer groups: 0.
+12 Aug 11:20:16 CONFIG [config.datadir] - Loading GeoServer config...
+12 Aug 11:20:16 CONFIG [config.datadir] - Loaded service 'wcs', enabled
+12 Aug 11:20:16 CONFIG [config.datadir] - Loaded service 'wfs', enabled
+12 Aug 11:20:16 CONFIG [config.datadir] - Loaded service 'wms', enabled
+12 Aug 11:20:16 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+12 Aug 11:20:16 CONFIG [config.datadir] - Catalog and configuration loader uses 12 threads out of 12 available cores.
+12 Aug 11:20:16 CONFIG [config.datadir] - Loading workspace services and settings...
+12 Aug 11:20:16 CONFIG [config.datadir] - Loaded service 'WCSInfoImpl-207aa827:19760aa3874:-7ffd', enabled
+12 Aug 11:20:16 CONFIG [config.datadir] - Loaded service 'WFSInfoImpl-207aa827:19760aa3874:-7ffb', enabled
+12 Aug 11:20:16 CONFIG [config.datadir] - Loaded service 'WMSInfoImpl-207aa827:19760aa3874:-7ffc', enabled
+12 Aug 11:20:16 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl-207aa827:19760aa3874:-7ffa', enabled
+12 Aug 11:20:16 CONFIG [config.datadir] - GeoServer config (settings and services) loaded in 323.8 ms
+12 Aug 11:20:16 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver_data/gwc'.
+12 Aug 11:20:17 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+12 Aug 11:20:17 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+12 Aug 11:20:17 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+12 Aug 11:20:17 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+12 Aug 11:20:17 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+12 Aug 11:20:17 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+12 Aug 11:20:17 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+12 Aug 11:20:18 CONFIG [gwc.layer] - Loaded 225 tile layers in 904.4 ms
+12 Aug 11:20:18 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+12 Aug 11:20:18 CONFIG [storage.DefaultStorageFinder] - Found system environment variable GEOSERVER_DATA_DIR set to /opt/geoserver_data/, using it as the default prefix.
+12 Aug 11:20:18 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+12 Aug 11:20:24 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver_data/gwc'.
+12 Aug 11:20:24 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver_data/gwc'.
+12 Aug 11:20:24 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+12 Aug 11:20:24 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+12 Aug 11:20:26 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+12 Aug 11:20:26 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+12 Aug 11:20:26 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+12 Aug 11:20:27 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+12 Aug 11:20:27 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+12 Aug 11:20:30 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+12 Aug 11:20:30 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+12 Aug 11:20:30 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+12 Aug 11:20:30 CONFIG [diskquota.DiskQuotaMonitor] - 225 layers attached to global quota 500.0 MB
+12 Aug 11:20:30 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+12 Aug 11:20:32 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+12 Aug 11:20:32 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+12 Aug 11:29:34 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+12 Aug 11:29:34 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+12 Aug 11:29:35 CONFIG [gwc.layer] - Loaded 225 tile layers in 598.5 ms
+12 Aug 11:29:35 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+12 Aug 11:29:35 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+12 Aug 11:29:36 CONFIG [gwc.layer] - Loaded 225 tile layers in 671.6 ms
+12 Aug 11:29:36 WARN   [support.DisposableBeanAdapter] - Custom destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@5e458645[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@468144d7] rejected from java.util.concurrent.ThreadPoolExecutor@66f21cc8[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12 Aug 11:29:36 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
